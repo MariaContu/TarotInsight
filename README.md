@@ -1,59 +1,108 @@
-# TarotInsight
+# 🔮 Tarot Insight
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.6.
+Aplicação front-end desenvolvida em Angular que simula leituras de tarot com foco em experiência do usuário, interatividade e organização de componentes.
 
-## Development server
+---
 
-To start a local development server, run:
+## ✨ Funcionalidades
+
+* 🔮 Sorteio aleatório de cartas de tarot
+* 🔄 Suporte a cartas invertidas com significados diferentes
+* 🎴 Filtros por:
+
+  * Arcano (Maior / Menor)
+  * Naipe (Copas, Espadas, Paus, Ouros)
+  * Tipo de leitura (Geral, Carreira, Saúde, Relacionamentos)
+* 🧠 Exibição dinâmica de significados
+* 🎨 Interface moderna com animações suaves (flip de carta)
+* 📜 Histórico de leituras *(em desenvolvimento)*
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Angular (Standalone Components)**
+* **TypeScript**
+* **SCSS**
+* **RxJS (básico)**
+* **Angular Animations**
+
+---
+
+## 🧩 Estrutura do Projeto
 
 ```bash
+src/
+ ├── app/
+ │   ├── components/
+ │   │   ├── card/
+ │   │   ├── filters/
+ │   │   ├── history/
+ │   │   ├── reading/
+ │   │
+ │   ├── pages/
+ │   │   ├── home/
+ │   │
+ │   ├── services/
+ │   │   ├── tarot.service.ts
+ │   │
+ │   ├── models/
+ │   │   ├── card.model.ts
+ │
+ ├── assets/
+ │   ├── data/
+ │   │   ├── major.json
+ │   │   ├── cups.json
+ │   │   ├── swords.json
+ │   │   ├── wands.json
+ │   │   ├── pentacles.json
+```
+
+---
+
+## 🚀 Como executar o projeto
+
+```bash
+# instalar dependências
+npm install
+
+# rodar aplicação
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+A aplicação estará disponível em:
+👉 http://localhost:4200
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🎯 Objetivo do Projeto
 
-```bash
-ng generate component component-name
-```
+Este projeto foi desenvolvido com o objetivo de:
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+* Praticar desenvolvimento front-end com Angular
+* Aplicar conceitos de componentização e gerenciamento de estado
+* Trabalhar com manipulação de dados e interações dinâmicas
+* Construir uma interface visualmente agradável com foco em UX
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## 📌 Próximos passos
 
-To build the project run:
+* [ ] Implementar histórico persistente (localStorage)
+* [ ] Melhorar sistema de filtros (UX e performance)
+* [ ] Adicionar animações mais refinadas
+* [ ] Completar base de dados com todas as 78 cartas
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 👩‍💻 Autora
 
-## Running unit tests
+Maria Eduarda Contu
+🔗 LinkedIn
+🔗 GitHub
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+## 💡 Observações
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Este projeto faz parte do meu portfólio como desenvolvedora Full Stack, com foco em evolução técnica e construção de aplicações interativas.

@@ -1,0 +1,92 @@
+[
+    {
+        "id": 0,
+        "name": "O Louco",
+        "image": "assets/cards/major/fool.jpg",
+        "arcana": "major",
+        "meanings": {
+        "general": "Novos começos, liberdade, espontaneidade",
+        "career": "Nova oportunidade ou mudança de rumo",
+        "health": "Energia renovada",
+        "relationships": "Relacionamento leve e despreocupado"
+        },
+        "reversedMeanings": {
+        "general": "Imprudência, falta de direção",
+        "career": "Decisões impulsivas",
+        "health": "Negligência",
+        "relationships": "Instabilidade emocional"
+        }
+    },
+    {
+        "id": 1,
+        "name": "O Mago",
+        "image": "assets/cards/major/magician.jpg",
+        "arcana": "major",
+        "meanings": {
+        "general": "Habilidade, poder de ação",
+        "career": "Capacidade de liderança",
+        "health": "Boa vitalidade",
+        "relationships": "Iniciativa"
+        },
+        "reversedMeanings": {
+        "general": "Manipulação, ilusão",
+        "career": "Uso errado de habilidades",
+        "health": "Baixa energia",
+        "relationships": "Falta de sinceridade"
+        }
+    },
+    {
+        "id": 2,
+        "name": "A Sacerdotisa",
+        "image": "assets/cards/major/priestess.jpg",
+        "arcana": "major",
+        "meanings": {
+        "general": "Intuição, mistério",
+        "career": "Observe antes de agir",
+        "health": "Equilíbrio emocional",
+        "relationships": "Conexão profunda"
+        },
+        "reversedMeanings": {
+        "general": "Confusão interna",
+        "career": "Falta de clareza",
+        "health": "Ansiedade",
+        "relationships": "Distanciamento"
+        }
+    },
+    {
+        "id": 3,
+        "name": "A Imperatriz",
+        "image": "assets/cards/major/empress.jpg",
+        "arcana": "major",
+        "meanings": {
+        "general": "Abundância, criatividade",
+        "career": "Crescimento profissional",
+        "health": "Boa saúde",
+        "relationships": "Amor e cuidado"
+        },
+        "reversedMeanings": {
+        "general": "Bloqueio criativo",
+        "career": "Estagnação",
+        "health": "Descuido",
+        "relationships": "Dependência emocional"
+        }
+    },
+    {
+        "id": 4,
+        "name": "O Imperador",
+        "image": "assets/cards/major/emperor.jpg",
+        "arcana": "major",
+        "meanings": {
+        "general": "Controle, estrutura",
+        "career": "Liderança",
+        "health": "Estabilidade",
+        "relationships": "Segurança"
+        },
+        "reversedMeanings": {
+        "general": "Rigidez",
+        "career": "Autoritarismo",
+        "health": "Tensão",
+        "relationships": "Controle excessivo"
+        }
+    }
+]
