@@ -1,3 +1,39 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.draw-btn {
+    background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.draw-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(108, 92, 231, 0.6);
+}
+
+.card-area {
+    margin-top: 20px;
+}
+
 .filters {
     display: flex;
     flex-direction: column;
