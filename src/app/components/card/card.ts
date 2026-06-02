@@ -11,7 +11,6 @@ export class CardComponent {
 
   @Input() card!: Card;
   @Input() isReversed = false;
-  @Input() readingType!: 'general' | 'career' | 'health' | 'relationships';
 
   isInverted = false;
 
@@ -19,9 +18,9 @@ export class CardComponent {
     this.isInverted = !this.isInverted;
   }
 
-  getMeaning() {
+  getMeanings() {
     return this.isInverted
-      ? this.card.reversedMeanings[this.readingType]
-      : this.card.meanings[this.readingType];
+      ? this.card.reversedMeanings
+      : this.card.meanings;
   }
 }

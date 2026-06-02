@@ -1,4 +1,5 @@
 <div class="card-wrapper">
+
     <div 
         class="image"
         [class.inverted]="isInverted"
@@ -6,8 +7,31 @@
     >
         <img [src]="card.image" [alt]="card.name">
     </div>
+
     <div class="info">
+
         <h3>{{ card.name }}</h3>
-        <p>{{ getMeaning() }}</p>
+
+        <div class="meaning">
+        <strong>Geral:</strong>
+        <p>{{ getMeanings().general }}</p>
+        </div>
+
+        <div class="meaning">
+        <strong>Carreira:</strong>
+        <p>{{ getMeanings().career }}</p>
+        </div>
+
+        <div class="meaning">
+        <strong>Saúde:</strong>
+        <p>{{ getMeanings().health }}</p>
+        </div>
+
+        <div class="meaning">
+        <strong>Relacionamentos:</strong>
+        <p>{{ getMeanings().relationships }}</p>
+        </div>
+
     </div>
+
 </div>
