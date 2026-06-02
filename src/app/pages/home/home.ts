@@ -17,10 +17,18 @@ export class HomeComponent {
 
   selectedReading: 'general' | 'career' | 'health' | 'relationships' = 'general';
 
+  selectedArcana: 'all' | 'major' | 'minor' = 'all';
+
+  selectedSuit: 'all' | 'cups' | 'swords' | 'wands' | 'pentacles' = 'all';
+
   constructor(private tarotService: TarotService) {}
 
   drawCard() {
-    this.selectedCard = this.tarotService.getRandomCard();
+    this.selectedCard = this.tarotService.getRandomFiltered(
+      this.selectedArcana,
+      this.selectedSuit
+    );
+
     this.isReversed = Math.random() > 0.5;
   }
 }

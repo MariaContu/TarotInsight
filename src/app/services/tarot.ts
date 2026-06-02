@@ -33,4 +33,15 @@ export class TarotService {
     return this.cards[i];
   }
 
+  getRandomFiltered(arcana: string, suit: string): Card {
+    const filtered = this.cards.filter(card => {
+      const matchArcana = arcana === 'all' || card.arcana === arcana;
+      const matchSuit = suit === 'all' || card.suit === suit;
+      return matchArcana && matchSuit;
+    });
+
+    const i = Math.floor(Math.random() * filtered.length);
+    return filtered[i];
+  }
+
 }
