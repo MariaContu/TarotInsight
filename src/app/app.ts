@@ -1,11 +1,10 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
+import { HomeComponent } from './pages/home/home';
 
 @Component({
   selector: 'app-root',
-  imports: [],
-  templateUrl: './app.html',
-  styleUrl: './app.scss'
+  standalone: true,
+  imports: [HomeComponent],
+  template: `<app-home></app-home>`
 })
-export class App {
-  protected readonly title = signal('tarot-insight');
-}
+export class AppComponent {}

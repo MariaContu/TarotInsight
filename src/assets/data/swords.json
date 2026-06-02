@@ -1,0 +1,21 @@
+[
+    {
+        "id": 50,
+        "name": "Ás de Copas",
+        "image": "assets/cards/cups/ace.jpg",
+        "arcana": "minor",
+        "suit": "cups",
+        "meanings": {
+        "general": "Novo começo emocional",
+        "career": "Satisfação no trabalho",
+        "health": "Equilíbrio emocional",
+        "relationships": "Novo amor"
+        },
+        "reversedMeanings": {
+        "general": "Bloqueio emocional",
+        "career": "Desmotivação",
+        "health": "Tristeza",
+        "relationships": "Desconexão"
+        }
+    }
+]

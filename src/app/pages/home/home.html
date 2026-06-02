@@ -1,1 +1,14 @@
-<p>home works!</p>
+<div class="container">
+
+    <h1>Tarot Insight</h1>
+
+    <button (click)="drawCard()">Tirar Carta</button>
+
+    @if (selectedCard) {
+        <app-card
+            [card]="selectedCard"
+            [isReversed]="isReversed"
+            [readingType]="selectedReading">
+        </app-card>
+    }
+</div>

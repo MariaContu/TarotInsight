@@ -1,1 +1,11 @@
-<p>card works!</p>
+<div class="card-container" (click)="toggleFlip()">
+    <div class="card" [class.flipped]="flipped">
+    <div class="front">
+        <img [src]="card.image" [alt]="card.name">
+        <p>{{ card.name }}</p>
+    </div>
+    <div class="back">
+        <p>{{ getMeaning() }}</p>
+    </div>
+    </div>
+</div>

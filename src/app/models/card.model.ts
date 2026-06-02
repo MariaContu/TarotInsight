@@ -1,25 +1,25 @@
-export type Suit = 'Copas' | 'Espadas' | 'Ouros' | 'Paus';
-export type Arcana = 'Maior' | 'Menor';
+export type Suit = 'cups' | 'swords' | 'wands' | 'pentacles';
+export type Arcana = 'major' | 'minor';
 
 export interface Card {
-    id: number;
-    name: string;
-    image: string;
+  id: number;
+  name: string;
+  image: string;
 
-    suit?: Suit;
-    arcana: Arcana;
-    
-    meanings: {
-        general: string;
-        career: string;
-        health: string;
-        relationships: string;
-    };
+  arcana: Arcana;
+  suit?: Suit;
 
-    reversedMeanings: {
-        general: string;
-        career: string;
-        health: string;
-        relationships: string;
-    };
+  meanings: {
+    general: string;
+    career: string;
+    health: string;
+    relationships: string;
+  };
+
+  reversedMeanings: {
+    general: string;
+    career: string;
+    health: string;
+    relationships: string;
+  };
 }
