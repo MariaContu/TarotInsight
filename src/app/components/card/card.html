@@ -1,11 +1,13 @@
-<div class="card-container" (click)="toggleFlip()">
-    <div class="card" [class.flipped]="flipped">
-    <div class="front">
+<div class="card-wrapper">
+    <div 
+        class="image"
+        [class.inverted]="isInverted"
+        (click)="toggleInvert()"
+    >
         <img [src]="card.image" [alt]="card.name">
-        <p>{{ card.name }}</p>
     </div>
-    <div class="back">
+    <div class="info">
+        <h3>{{ card.name }}</h3>
         <p>{{ getMeaning() }}</p>
-    </div>
     </div>
 </div>

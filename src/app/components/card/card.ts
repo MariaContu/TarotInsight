@@ -13,16 +13,14 @@ export class CardComponent {
   @Input() isReversed = false;
   @Input() readingType!: 'general' | 'career' | 'health' | 'relationships';
 
-  flipped = false;
+  isInverted = false;
 
-  toggleFlip() {
-    this.flipped = !this.flipped;
+  toggleInvert() {
+    this.isInverted = !this.isInverted;
   }
 
   getMeaning() {
-    if (!this.flipped) return '';
-
-    return this.isReversed
+    return this.isInverted
       ? this.card.reversedMeanings[this.readingType]
       : this.card.meanings[this.readingType];
   }
