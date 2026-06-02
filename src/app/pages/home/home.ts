@@ -12,7 +12,6 @@ import { NgIf } from '@angular/common';
 })
 export class HomeComponent {
 
-  selectedCard?: Card;
   isReversed = false;
 
   selectedReading: 'general' | 'career' | 'health' | 'relationships' = 'general';
@@ -21,14 +20,29 @@ export class HomeComponent {
 
   selectedSuit: 'all' | 'cups' | 'swords' | 'wands' | 'pentacles' = 'all';
 
+  allCards: Card[] = [];
+
+  selectedCard?: Card;
+  showModal = false;
+
+
+  ngOnInit() {
+    this.allCards = this.tarotService.getAllCards();
+  }
+
   constructor(private tarotService: TarotService) {}
 
-  drawCard() {
-    this.selectedCard = this.tarotService.getRandomFiltered(
-      this.selectedArcana,
-      this.selectedSuit
-    );
+  openModal(card: Card) {
+    this.selectedCard = card;
+    this.showModal = true;
+  }
 
-    this.isReversed = Math.random() > 0.5;
+  closeModal() {
+    this.showModal = false;
+  }
+
+  drawCard() {
+    this.selectedCard = this.tarotService.getRandomCard();
+    this.showModal = true;
   }
 }

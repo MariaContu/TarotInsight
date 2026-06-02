@@ -1,32 +1,29 @@
 <div class="page">
-    <h1 class="title">Tarot Insight</h1>
-    <div class="filters">
-        <div class="filter-group">
-            <button (click)="selectedArcana='all'">Todos</button>
-            <button (click)="selectedArcana='major'">Maiores</button>
-            <button (click)="selectedArcana='minor'">Menores</button>
-        </div>
-        <div class="filter-group">
-            <button (click)="selectedSuit='all'">Todos</button>
-            <button [disabled]="selectedArcana === 'major'"  (click)="selectedSuit='cups'">Copas</button>
-            <button [disabled]="selectedArcana === 'major'"  (click)="selectedSuit='swords'">Espadas</button>
-            <button [disabled]="selectedArcana === 'major'"  (click)="selectedSuit='wands'">Paus</button>
-            <button [disabled]="selectedArcana === 'major'"  (click)="selectedSuit='pentacles'">Ouros</button>
-        </div>
-        <div class="filter-group">
-            <button (click)="selectedReading='general'">Geral</button>
-            <button (click)="selectedReading='career'">Carreira</button>
-            <button (click)="selectedReading='health'">Saúde</button>
-            <button (click)="selectedReading='relationships'">Relacionamentos</button>
-        </div>
-    </div>
-    <button class="draw-btn" (click)="drawCard()">Tirar Carta</button>
-    @if (selectedCard) {
-        <div class="card-area fade-in">
-            <app-card
-                [card]="selectedCard"
-                [isReversed]="isReversed">
-            </app-card>
-        </div>
+
+  <h1 class="title">🔮 Tarot Insight</h1>
+
+  <div class="grid">
+    @for (c of allCards; track $index) {
+      <div class="card-mini" (click)="openModal(c)">
+        <img [src]="c.image" [alt]="c.name">
+      </div>
     }
+  </div>
+
+  <button class="floating-btn" (click)="drawCard()">
+    🔮
+  </button>
+
+  @if (showModal && selectedCard) {
+    <div class="modal">
+
+      <div class="overlay" (click)="closeModal()"></div>
+
+      <div class="modal-content">
+        <app-card [card]="selectedCard"></app-card>
+      </div>
+
+    </div>
+  }
+
 </div>
