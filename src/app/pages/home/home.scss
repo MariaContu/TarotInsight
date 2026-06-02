@@ -17,21 +17,40 @@
 .draw-btn {
     background: linear-gradient(135deg, #6c5ce7, #a29bfe);
     border: none;
-    padding: 12px 20px;
-    border-radius: 10px;
+    padding: 14px 24px;
+    border-radius: 12px;
     color: white;
-    font-weight: bold;
+    font-weight: 600;
     cursor: pointer;
-    transition: 0.3s;
+    transition: all 0.3s ease;
 }
 
 .draw-btn:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 15px rgba(108, 92, 231, 0.6);
+    box-shadow: 0 0 20px rgba(108, 92, 231, 0.6);
+}
+
+.draw-btn:active {
+    transform: scale(0.97);
 }
 
 .card-area {
     margin-top: 20px;
+}
+
+.fade-in {
+    animation: fadeInUp 0.5s ease;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .filters {

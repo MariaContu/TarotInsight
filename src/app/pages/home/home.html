@@ -22,11 +22,10 @@
     </div>
     <button class="draw-btn" (click)="drawCard()">Tirar Carta</button>
     @if (selectedCard) {
-        <div class="card-area">
+        <div class="card-area fade-in">
             <app-card
                 [card]="selectedCard"
-                [isReversed]="isReversed"
-                [readingType]="selectedReading">
+                [isReversed]="isReversed">
             </app-card>
         </div>
     }

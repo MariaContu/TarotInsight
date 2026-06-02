@@ -8,7 +8,8 @@
         <img [src]="card.image" [alt]="card.name">
     </div>
 
-    <div class="info">
+    <div class="info" [class.changed]="isInverted">
+        <small class="hint">Clique para inverter</small>
 
         <h3>{{ card.name }}</h3>
 
