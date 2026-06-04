@@ -1,21 +1,254 @@
 [
-    {
-        "id": 50,
-        "name": "Ás de Copas",
-        "image": "assets/cards/cups/ace.jpg",
-        "arcana": "minor",
-        "suit": "cups",
-        "meanings": {
-        "general": "Novo começo emocional",
-        "career": "Satisfação no trabalho",
-        "health": "Equilíbrio emocional",
-        "relationships": "Novo amor"
-        },
-        "reversedMeanings": {
-        "general": "Bloqueio emocional",
-        "career": "Desmotivação",
-        "health": "Tristeza",
-        "relationships": "Desconexão"
-        }
+  {
+    "id": 64,
+    "name": "Ás de Paus",
+    "image": "assets/cards/wands/ace.jpg",
+    "arcana": "minor",
+    "meanings": {
+      "general": "Início de um ciclo de alta energia, faísca criativa, inspiração avassaladora, entusiasmo e novos projetos ousados.",
+      "career": "Surgimento de uma oportunidade profissional empolgante, início de um negócio com muita paixão ou uma ideia inovadora.",
+      "health": "Vigor físico transbordante, grande força vital, dinamismo e excelente capacidade de recuperação corporal.",
+      "relationships": "Uma atração física e química intensa surgindo, paixão renovada ou o início de uma conexão dinâmica e estimulante."
+    },
+    "reversedMeanings": {
+      "general": "Falta de motivação, falsos começos, energia dispersa, bloqueio criativo ou projetos que perdem a força inicial.",
+      "career": "Ideias profissionais que não saem do papel por falta de iniciativa, desânimo com o trabalho ou atrasos em lançamentos.",
+      "health": "Baixa energia vital, cansaço físico inexplicável, apatia ou esgotamento por tentar abraçar o mundo.",
+      "relationships": "Falta de química ou entusiasmo na relação, promessas românticas que esfriam rapidamente ou bloqueio na paixão."
     }
+  },
+  {
+    "id": 65,
+    "name": "Dois de Paus",
+    "image": "assets/cards/wands/two.jpg",
+    "arcana": "minor",
+    "meanings": {
+      "general": "Planejamento futuro, expansão de horizontes, tomada de decisão estratégica, ambição e a preparação para dar grandes passos.",
+      "career": "Análise de novas propostas de mercado, planejamento de expansão comercial ou decisão de sair da zona de conforto profissional.",
+      "health": "Estabilidade física estável, momento ideal para planejar novas metas de treinos ou mudanças de hábitos a longo prazo.",
+      "relationships": "Planos futuros feitos a dois, alinhamento de objetivos de vida do casal ou o desejo mútuo de expandir a relação."
+    },
+    "reversedMeanings": {
+      "general": "Falta de planejamento prático, medo do desconhecido, hesitação paralisante ou ficar preso à zona de conforto por insegurança.",
+      "career": "Recusa em aceitar novos desafios profissionais por medo de arriscar, metas mal estruturadas ou projetos travados.",
+      "health": "Inércia física gerada pela falta de objetivos claros, desânimo em manter uma rotina saudável a longo prazo.",
+      "relationships": "Incerteza sobre o futuro do casal, divergência profunda de planos a longo prazo ou medo de assumir um passo maior na relação."
+    }
+  },
+  {
+    "id": 66,
+    "name": "Três de Paus",
+    "image": "assets/cards/wands/three.jpg",
+    "arcana": "minor",
+    "meanings": {
+      "general": "Expansão, os primeiros resultados aparecendo, visão de longo prazo, progresso visível e a certeza de que o caminho escolhido está certo.",
+      "career": "Sucesso inicial em novos empreendimentos, colheita dos primeiros lucros, oportunidades de comércio exterior ou viagens corporativas.",
+      "health": "Sinais claros de melhora na saúde e no condicionamento físico após o início de novas práticas e tratamentos.",
+      "relationships": "Relacionamento evoluindo para uma fase de maior estabilidade, confiança mútua em alta e planos de viagens juntos."
+    },
+    "reversedMeanings": {
+      "general": "Atrasos nos resultados esperados, frustração com prazos, falta de visão de futuro ou investimentos que não dão o retorno planejado.",
+      "career": "Projetos profissionais que enfrentam barreiras externas inesperadas, parcerias que falham ou atrasos em entregas comerciais.",
+      "health": "Demora na recuperação física por falta de constância nos cuidados ou impaciência com processos graduais de cura.",
+      "relationships": "Sensação de que o relacionamento está estagnado e não avança, ou frustração por planos de viagens/futuros cancelados."
+    }
+  },
+  {
+    "id": 67,
+    "name": "Quatro de Paus",
+    "image": "assets/cards/wands/four.jpg",
+    "arcana": "minor",
+    "meanings": {
+      "general": "Celebração, estabilidade feliz, harmonia no lar, conquistas merecidas compartilhadas e uma profunda sensação de paz e segurança.",
+      "career": "Conclusão bem-sucedida de uma meta importante, ambiente profissional acolhedor e comemoração de vitórias em equipe.",
+      "health": "Excelente equilíbrio físico e mental, sensação de vitalidade associada a um ambiente doméstico tranquilo.",
+      "relationships": "Felicidade conjugal, consolidação de um compromisso sério (como casamento ou morar juntos) e forte apoio familiar."
+    },
+    "reversedMeanings": {
+      "general": "Instabilidade temporária no lar, celebrações canceladas, falta de harmonia comunitária ou pequenas tensões cotidianas.",
+      "career": "Clima tenso no ambiente de trabalho atrapalhando a produtividade, ou conquistas que não são celebradas como deveriam.",
+      "health": "Pequenos desequilíbrios causados por estresse ou desorganização na rotina doméstica.",
+      "relationships": "Pequenas brigas na convivência diária do casal, interferência de problemas familiares na relação ou adiamento de planos de união."
+    }
+  },
+  {
+    "id": 68,
+    "name": "Cinco de Paus",
+    "image": "assets/cards/wands/five.jpg",
+    "arcana": "minor",
+    "meanings": {
+      "general": "Competição saudável, conflitos de ideias, desafios estimulantes, testes de resistência e a necessidade de defender seus posicionamentos.",
+      "career": "Ambiente de trabalho muito competitivo, sessões de brainstorming intensas com opiniões divergentes ou disputas por vagas.",
+      "health": "Necessidade de canalizar a energia agressiva ou estresse através de esportes competitivos ou treinos de alta intensidade.",
+      "relationships": "Pequenas discussões por divergência de opiniões na rotina do casal, mas que servem para ajustar os ponteiros da relação."
+    },
+    "reversedMeanings": {
+      "general": "Fim de conflitos, cancelamento de competições, exaustão por brigas inúteis ou incapacidade de lidar com a pressão externa.",
+      "career": "Fim de uma disputa corporativa desgastante, ou o erro de fugir de desafios profissionais necessários por puro medo do confronto.",
+      "health": "Esgotamento físico causado por excesso de estresse competitivo, dores musculares crônicas por tensão acumulada.",
+      "relationships": "O casal decidindo parar de brigar por motivos bobos, ou o acúmulo de ressentimentos por evitar discussões necessárias."
+    }
+  },
+  {
+    "id": 69,
+    "name": "Seis de Paus",
+    "image": "assets/cards/wands/six.jpg",
+    "arcana": "minor",
+    "meanings": {
+      "general": "Vitória pública, reconhecimento dos seus esforços, aclamação, sucesso merecido, orgulho legítimo e autoconfiança em alta.",
+      "career": "Promoção de cargo muito esperada, prêmios por desempenho, aprovação unânime de projetos e liderança respeitada.",
+      "health": "Superação definitiva de uma doença ou problema físico, restabelecimento total da força e vigor corporal.",
+      "relationships": "Sucesso no amor, conquista de um parceiro desejado ou admiração mútua consolidando o relacionamento publicamente."
+    },
+    "reversedMeanings": {
+      "general": "Falta de reconhecimento, sucesso adiado, orgulho excessivo/arrogância, frustração pública ou perda de prestígio.",
+      "career": "Créditos por seu trabalho levados por terceiros, projetos que não recebem o apoio da chefia ou sentimento de invisibilidade.",
+      "health": "Recuperação lenta que abala a autoconfiança, ou o erro de forçar o corpo antes de estar totalmente curado por puro orgulho.",
+      "relationships": "Insegurança afetiva por falta de valorização do parceiro, ou conflitos gerados pelo egocentrismo de um dos lados."
+    }
+  },
+  {
+    "id": 70,
+    "name": "Sete de Paus",
+    "image": "assets/cards/wands/seven.jpg",
+    "arcana": "minor",
+    "meanings": {
+      "general": "Defesa de posições, resistência contra pressões externas, coragem para manter suas convicções e superação de concorrências.",
+      "career": "Manter-se firme diante de críticas a um projeto seu, defesa do seu cargo contra concorrentes diretos e forte resiliência.",
+      "health": "O organismo lutando com sucesso contra infecções, fortalecimento ativo do sistema imunológico através de cuidados firmes.",
+      "relationships": "Proteger o relacionamento contra fofocas ou palpites externos, defendendo a intimidade e as escolhas do casal."
+    },
+    "reversedMeanings": {
+      "general": "Sentir-se sobrecarregado por pressões, ceder a exigências alheias, falta de coragem para se impor ou exaustão defensiva.",
+      "career": "Incapacidade de lidar com o volume de cobranças profissionais, ceder em negociações importantes por cansaço mental.",
+      "health": "Baixa imunidade decorrente do esgotamento por estresse crônico de ter que resolver tudo sozinho.",
+      "relationships": "Ceder excessivamente às vontades do parceiro anulando-se na relação, ou cansaço de lutar sozinho para manter o vínculo."
+    }
+  },
+  {
+    "id": 71,
+    "name": "Oito de Paus",
+    "image": "assets/cards/wands/eight.jpg",
+    "arcana": "minor",
+    "meanings": {
+      "general": "Velocidade, acontecimentos rápidos, notícias urgentes chegando, viagens de última hora, metas alcançadas em ritmo acelerado.",
+      "career": "Respostas rápidas de e-mails/vagas, fechamento ágil de contratos, projetos avançando sem burocracias e dinamismo máximo.",
+      "health": "Metabolismo acelerado, resposta imediata do corpo a novos tratamentos e grande agilidade e reflexos físicos.",
+      "relationships": "Evolução muito rápida no namoro, declarações apaixonadas repentinas, viagens espontâneas a dois ou forte magnetismo ativo."
+    },
+    "reversedMeanings": {
+      "general": "Atrasos frustrantes, falta de direção na correria, impulsividade que gera erros por pressa ou notícias ruins/confusas.",
+      "career": "Projetos travados por burocracia governamental ou interna, decisões precipitadas sem análise prévia gerando prejuízos contratuais.",
+      "health": "Problemas de saúde causados por correria excessiva (má digestão, estresse), ou riscos de acidentes por pressa e distração.",
+      "relationships": "Relacionamento avançando rápido demais gerando assombro e insegurança, ou mal-entendidos por mensagens interpretadas de forma errada."
+    }
+  },
+  {
+    "id": 72,
+    "name": "Nove de Paus",
+    "image": "assets/cards/wands/nine.jpg",
+    "arcana": "minor",
+    "meanings": {
+      "general": "Resiliência na reta final, persistência apesar do cansaço, proteção de conquistas, desconfiança saudável e a última barreira antes da vitória.",
+      "career": "Fase final exaustiva de um grande projeto que exige um último esforço focado, proteção de dados corporativos sigilosos.",
+      "health": "Resistência física testada ao limite, mas com o corpo aguentando firme; necessidade de manter a guarda na prevenção de recaídas.",
+      "relationships": "Manter a guarda alta na relação por medo de se machucar novamente devido a traumas passados, exigindo paciência do par."
+    },
+    "reversedMeanings": {
+      "general": "Esgotamento total das forças (burnout), desistência na reta final, teimosia inútil ou recusa em aceitar que precisa de descanso.",
+      "career": "Falta de energia para concluir um trabalho importante, travar diante do último obstáculo ou sobrecarga severa de funções.",
+      "health": "Colapso físico por ignorar os sinais de cansaço crônico do corpo, necessidade urgente de repouso absoluto.",
+      "relationships": "Exaustão emocional por brigas repetitivas, cansaço de manter as defesas altas impedindo a verdadeira entrega amorosa."
+    }
+  },
+  {
+    "id": 73,
+    "name": "Dez de Paus",
+    "image": "assets/cards/wands/ten.jpg",
+    "arcana": "minor",
+    "meanings": {
+      "general": "Sobrecarga de responsabilidades, fardo pesado, excesso de obrigações assumidas, exaustão física mas com determinação para chegar ao fim.",
+      "career": "Acúmulo excessivo de tarefas no trabalho por não saber delegar, cansaço corporativo crônico e metas sufocantes.",
+      "health": "Dores nas costas, ombros e articulações devido ao excesso de peso e esforço físico, estresse acumulado na musculatura.",
+      "relationships": "Sentir que está carregando o relacionamento sozinho nas costas, sobrecarga de cobranças afetivas gerando desânimo."
+    },
+    "reversedMeanings": {
+      "general": "Libertação de fardos inúteis, aprender a delegar tarefas, colapso por carregar peso excessivo ou abandono voluntário de cobranças alheias.",
+      "career": "Decisão de recusar demandas abusivas no trabalho, reestruturação de rotina profissional para ter mais qualidade de vida.",
+      "health": "Alívio de tensões musculares crônicas após adotar repouso e massagens, melhora significativa do esgotamento.",
+      "relationships": "Divisão justa de responsabilidades cotidianas entre o casal, ou o rompimento definitivo de uma relação que era um fardo arrastado."
+    }
+  },
+  {
+    "id": 74,
+    "name": "Princesa de Paus",
+    "image": "assets/cards/wands/page.jpg",
+    "arcana": "minor",
+    "meanings": {
+      "general": "Entusiasmo jovem, novas ideias criativas, paixão por novos começos, otimismo contagiante, mensagens inspiradoras e desejo de explorar.",
+      "career": "Início de um projeto experimental instigante, propostas inovadoras em fases iniciais ou muita vontade de aprender novas habilidades.",
+      "health": "Desejo de testar modalidades dinâmicas de exercícios esportivos, energia renovada e disposição inicial excelente.",
+      "relationships": "Flertes animados e cheios de atração física, declarações cheias de entusiasmo ou o início de um envolvimento muito alegre."
+    },
+    "reversedMeanings": {
+      "general": "Falta de compromisso, empolgação de curto prazo que some rápido, projetos largados na metade por preguiça ou futilidade.",
+      "career": "Falta de seriedade na execução de novas ideias de trabalho, dispersão frequente de foco ou atrasos por pura procrastinação empolgada.",
+      "health": "Iniciar dietas ou academias com muita sede ao pote e desistir na primeira semana por falta de disciplina real.",
+      "relationships": "Promessas empolgadas de amor eterno que não duram uma semana, atitudes infantis e imaturas na dinâmica amorosa."
+    }
+  },
+  {
+    "id": 75,
+    "name": "Cavaleiro de Paus",
+    "image": "assets/cards/wands/knight.jpg",
+    "arcana": "minor",
+    "meanings": {
+      "general": "Ação ousada, impulsividade apaixonada, busca por aventuras, determinação enérgica, magnetismo em movimento e a coragem de arriscar.",
+      "career": "Mudanças rápidas de emprego por busca de desafios maiores, atitude enérgica para fechar vendas e paixão na execução de ideias.",
+      "health": "Grande explosão física e paixão por esportes radicais ou treinos intensos, mas exige atenção redobrada aos limites corporais.",
+      "relationships": "Conquista amorosa avassaladora e direta, atração magnética intensa e gestos românticos cheios de fogo e paixão espontânea."
+    },
+    "reversedMeanings": {
+      "general": "Impulsividade destrutiva, agressividade por pura impaciência, projetos abandonados por tédio rápido ou arrogância desmedida.",
+      "career": "Brigas com colegas por puro gênio forte, tomar decisões executivas arriscadas sem avaliar as consequências reais e prejuízos por pressa.",
+      "health": "Risco alto de distensões musculares ou pequenas lesões por treinar com excesso de força e falta de aquecimento adequado.",
+      "relationships": "Ciúme explosivo e impulsivo, parceiro que some quando a relação cai na rotina estável ou conflitos sérios por gênio forte mútua."
+    }
+  },
+  {
+    "id": 76,
+    "name": "Rainha de Paus",
+    "image": "assets/cards/wands/queen.jpg",
+    "arcana": "minor",
+    "meanings": {
+      "general": "Magnetismo pessoal avassalador, autoconfiança inabalável, independência criativa, carisma radiante, liderança inspiradora e alegria de viver.",
+      "career": "Empreendedora nata e de sucesso, liderança carismática que motiva toda a equipe e facilidade extrema para gerenciar múltiplos negócios lucrativos.",
+      "health": "Saúde impecável, energia física contagiante, ótima postura e disposição corporal invejável através do autocuidado ativo.",
+      "relationships": "Parceira independente, apaixonada e segura de si; relacionamento dinâmico, quente, baseado na admiração e na diversão mútua."
+    },
+    "reversedMeanings": {
+      "general": "Insegurança camuflada de arrogância, ciúme excessivo por puro ego, manipulação através do charme pessoal ou mau humor destrutivo.",
+      "career": "Abuso de carisma para manipular subordinados, centralização excessiva de poder por vaidade ou inveja profissional latente.",
+      "health": "Esgotamento físico por manter a imagem constante de que dá conta de tudo, negligenciando o descanso neurológico básico.",
+      "relationships": "Cobranças dramáticas por atenção constante, ciúme possessivo explosivo ou tentativas de ofuscar o brilho pessoal do parceiro."
+    }
+  },
+  {
+    "id": 77,
+    "name": "Rei de Paus",
+    "image": "assets/cards/wands/king.jpg",
+    "arcana": "minor",
+    "meanings": {
+      "general": "Liderança nata visionária, autoridade inspiradora, forte poder de execução, empreendedorismo de grande porte, honra e carisma magnético maduro.",
+      "career": "Líder corporativo respeitado e motivador, faro excelente para abrir novos mercados comerciais e sucesso absoluto na consolidação de grandes metas.",
+      "health": "Forte resistência corporal, vitalidade duradoura e foco em manter o corpo ativo e saudável através de rotinas dinâmicas.",
+      "relationships": "Parceiro protetor, apaixonado e leal; relacionamento seguro, dinâmico e focado na construção de uma vida cheia de projetos em comum."
+    },
+    "reversedMeanings": {
+      "general": "Tirania egocêntrica, autoritarismo agressivo, intolerância com erros alheios, arrogância desmedida ou impulsividade perigosa.",
+      "career": "Chefe centralizador e agressivo que impõe vontades pelo medo, péssimas decisões executivas por puro orgulho ou teimosia corporativa.",
+      "health": "Problemas cardiovasculares ou de pressão arterial devido a explosões constantes de raiva e estresse crônico de controle.",
+      "relationships": "Parceiro dominador que tenta ditar todas as regras da relação, explosões de gênio forte que desgastam o diálogo amoroso mútua."
+    }
+  }
 ]
