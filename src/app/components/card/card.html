@@ -1,38 +1,31 @@
 <div class="card-wrapper">
+  <div class="image" [class.inverted]="isInverted" (click)="toggleInvert()">
+    <img [src]="card.image" [alt]="card.name" />
+  </div>
 
-    <div 
-        class="image"
-        [class.inverted]="isInverted"
-        (click)="toggleInvert()"
-    >
-        <img [src]="card.image" [alt]="card.name">
+  <div class="info">
+    <small class="hint">Clique para inverter</small>
+
+    <h3>{{ card.name }}</h3>
+
+    <div class="meaning">
+      <strong>Geral:</strong>
+      <p>{{ getMeanings().general }}</p>
     </div>
 
-    <div class="info" [class.changed]="isInverted">
-        <small class="hint">Clique para inverter</small>
-
-        <h3>{{ card.name }}</h3>
-
-        <div class="meaning">
-        <strong>Geral:</strong>
-        <p>{{ getMeanings().general }}</p>
-        </div>
-
-        <div class="meaning">
-        <strong>Carreira:</strong>
-        <p>{{ getMeanings().career }}</p>
-        </div>
-
-        <div class="meaning">
-        <strong>Saúde:</strong>
-        <p>{{ getMeanings().health }}</p>
-        </div>
-
-        <div class="meaning">
-        <strong>Relacionamentos:</strong>
-        <p>{{ getMeanings().relationships }}</p>
-        </div>
-
+    <div class="meaning">
+      <strong>Carreira:</strong>
+      <p>{{ getMeanings().career }}</p>
     </div>
 
+    <div class="meaning">
+      <strong>Saúde:</strong>
+      <p>{{ getMeanings().health }}</p>
+    </div>
+
+    <div class="meaning">
+      <strong>Relacionamentos:</strong>
+      <p>{{ getMeanings().relationships }}</p>
+    </div>
+  </div>
 </div>
