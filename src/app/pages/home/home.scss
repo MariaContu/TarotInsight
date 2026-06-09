@@ -1,36 +1,60 @@
-/* LAYOUT BASE */
 .page {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 80px;
 }
 
-/* TÍTULO */
+/* HEADER */
+.header {
+  text-align: center;
+  padding: 32px 20px 8px;
+}
+
 .title {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 600;
-  margin: 20px 0;
+  margin: 0 0 6px;
+  letter-spacing: -0.5px;
 }
 
-/* GRID PRINCIPAL */
+.subtitle {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.35);
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+/* CONTADOR */
+.card-count {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+  margin: 10px 0 0;
+  align-self: flex-start;
+  padding-left: 24px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* GRID */
 .grid {
   width: 100%;
   max-width: 1200px;
-
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
   gap: 14px;
-
-  padding: 20px;
+  padding: 14px 20px 0;
 }
 
-/* CARTAS MINI */
+/* CARD MINI */
 .card-mini {
   cursor: pointer;
   transition: all 0.25s ease;
   border-radius: 10px;
   overflow: hidden;
+  position: relative;
+  background: rgba(255, 255, 255, 0.03);
 }
 
 .card-mini img {
@@ -39,36 +63,54 @@
   border-radius: 10px;
 }
 
-/* HOVER MAIS PREMIUM */
+.card-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 18px 6px 6px;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+  border-radius: 0 0 10px 10px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .card-mini:hover {
   transform: scale(1.06);
   box-shadow: 0 0 15px rgba(108, 92, 231, 0.4);
 }
 
+.card-mini:hover .card-name {
+  opacity: 1;
+}
+
 /* BOTÃO FLUTUANTE */
 .floating-btn {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-
-  width: 64px;
-  height: 64px;
+  bottom: 24px;
+  right: 24px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-
   border: none;
-  font-size: 26px;
+  font-size: 24px;
   color: white;
-
   background: linear-gradient(135deg, #6c5ce7, #a29bfe);
-
   cursor: pointer;
   transition: all 0.3s ease;
-
-  box-shadow: 0 0 20px rgba(108, 92, 231, 0.6);
+  box-shadow: 0 4px 20px rgba(108, 92, 231, 0.5);
+  z-index: 100;
 }
 
 .floating-btn:hover {
   transform: scale(1.1);
+  box-shadow: 0 6px 28px rgba(108, 92, 231, 0.7);
 }
 
 .floating-btn:active {
@@ -80,38 +122,76 @@
   position: fixed;
   inset: 0;
   z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
 }
 
-/* BACKDROP */
 .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(6px);
 }
 
-/* CONTEÚDO */
 .modal-content {
   position: relative;
   z-index: 2;
-
-  margin: auto;
-  top: 50%;
-  transform: translateY(-50%);
-
-  width: fit-content;
-
-  animation: modalEnter 0.3s ease;
+  animation: modalEnter 0.25s ease;
+  max-width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
 }
 
-/* ANIMAÇÃO DO MODAL */
+/* BOTÃO FECHAR */
+.close-btn {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.12);
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  z-index: 3;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.22);
+  }
+}
+
 @keyframes modalEnter {
   from {
     opacity: 0;
-    transform: translateY(-40%) scale(0.95);
+    transform: scale(0.95) translateY(8px);
   }
   to {
     opacity: 1;
-    transform: translateY(-50%) scale(1);
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 600px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(85px, 1fr));
+    gap: 10px;
+    padding: 12px 14px 0;
+  }
+
+  .card-count {
+    padding-left: 18px;
   }
 }
