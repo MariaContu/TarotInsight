@@ -1,28 +1,34 @@
 <div class="page">
 
-  <h1 class="title">🔮 Tarot Insight</h1>
+  <header class="header">
+    <h1 class="title">🔮 Tarot Insight</h1>
+    <p class="subtitle">Explore as 78 cartas do baralho</p>
+  </header>
+
+  <app-filters (filtersChange)="onFiltersChange($event)"></app-filters>
+
+  <p class="card-count">{{ filteredCards.length }} cartas</p>
 
   <div class="grid">
-    @for (c of allCards; track $index) {
+    @for (c of filteredCards; track c.id) {
       <div class="card-mini" (click)="openModal(c)">
-        <img [src]="c.image" [alt]="c.name">
+        <img [src]="c.image" [alt]="c.name" loading="lazy">
+        <span class="card-name">{{ c.name }}</span>
       </div>
     }
   </div>
 
-  <button class="floating-btn" (click)="drawCard()">
+  <button class="floating-btn" (click)="drawCard()" aria-label="Sortear carta">
     🔮
   </button>
 
   @if (showModal && selectedCard) {
-    <div class="modal">
-
+    <div class="modal" (keydown.escape)="closeModal()">
       <div class="overlay" (click)="closeModal()"></div>
-
       <div class="modal-content">
-        <app-card [card]="selectedCard"></app-card>
+        <button class="close-btn" (click)="closeModal()" aria-label="Fechar">✕</button>
+        <app-card [card]="selectedCard" [activeReading]="activeReading"></app-card>
       </div>
-
     </div>
   }
 
