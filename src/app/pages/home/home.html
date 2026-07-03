@@ -1,39 +1,81 @@
-<div class="container">
+<div class="page">
 
-    <h1>Tarot Insight</h1>
+  <header class="header">
+    <div class="header-top">
+      <div class="header-text">
+        <h1 class="title">Tarot Insight</h1>
+        <p class="subtitle">Explore as 78 cartas do baralho</p>
+      </div>
 
-    <div class="filters">
-
-    <div class="filter-group">
-        <button (click)="selectedArcana='all'">Todos</button>
-        <button (click)="selectedArcana='major'">Maiores</button>
-        <button (click)="selectedArcana='minor'">Menores</button>
+      <button class="history-btn" (click)="toggleHistory()" aria-label="Ver histórico">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="9"></circle>
+          <path d="M12 7v5l3 3"></path>
+        </svg>
+        @if (historyList.length) {
+          <span class="history-badge">{{ historyList.length }}</span>
+        }
+      </button>
     </div>
+  </header>
 
-    <div class="filter-group">
-        <button (click)="selectedSuit='all'">Todos</button>
-        <button [disabled]="selectedArcana === 'major'"  (click)="selectedSuit='cups'">Copas</button>
-        <button [disabled]="selectedArcana === 'major'"  (click)="selectedSuit='swords'">Espadas</button>
-        <button [disabled]="selectedArcana === 'major'"  (click)="selectedSuit='wands'">Paus</button>
-        <button [disabled]="selectedArcana === 'major'"  (click)="selectedSuit='pentacles'">Ouros</button>
-    </div>
+  <div class="layout">
+    <aside class="sidebar">
+      <app-filters (filtersChange)="onFiltersChange($event)"></app-filters>
+    </aside>
 
-    <div class="filter-group">
-        <button (click)="selectedReading='general'">Geral</button>
-        <button (click)="selectedReading='career'">Carreira</button>
-        <button (click)="selectedReading='health'">Saúde</button>
-        <button (click)="selectedReading='relationships'">Relacionamentos</button>
-    </div>
+    <main class="content">
+      <p class="card-count">{{ filteredCards.length }} cartas</p>
 
-</div>
+      <div class="grid">
+        @for (c of filteredCards; track c.id) {
+          <div class="card-mini" (click)="openModal(c)">
+            <img [src]="c.image" [alt]="c.name" loading="lazy">
+            <span class="card-name">{{ c.name }}</span>
+          </div>
+        }
+      </div>
+    </main>
+  </div>
 
-    <button (click)="drawCard()">Tirar Carta</button>
+  <button class="floating-btn" (click)="drawCard()" aria-label="Sortear carta (modo desafio)">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="5" y="3" width="10" height="15" rx="2" transform="rotate(-8 10 10.5)"></rect>
+      <rect x="8" y="6" width="10" height="15" rx="2"></rect>
+    </svg>
+  </button>
 
-    @if (selectedCard) {
-        <app-card
+  @if (showModal && selectedCard) {
+    <div class="modal" (keydown.escape)="closeModal()">
+      <div class="overlay" (click)="closeModal()"></div>
+      <div class="modal-content">
+        <button class="close-btn" (click)="closeModal()" aria-label="Fechar">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M5 5l14 14M19 5L5 19"></path>
+          </svg>
+        </button>
+
+        @if (challengeMode) {
+          <app-reading
             [card]="selectedCard"
-            [isReversed]="isReversed"
-            [readingType]="selectedReading">
-        </app-card>
-    }
+            [activeReading]="activeReading"
+            (reveal)="onReveal()"
+            (drawAnother)="drawAnotherInChallenge()"
+          ></app-reading>
+        } @else {
+          <app-card [card]="selectedCard" [activeReading]="activeReading"></app-card>
+        }
+      </div>
+    </div>
+  }
+
+  @if (showHistory) {
+    <app-history
+      [cards]="historyList"
+      (select)="openModal($event)"
+      (clear)="clearHistory()"
+      (close)="toggleHistory()"
+    ></app-history>
+  }
+
 </div>

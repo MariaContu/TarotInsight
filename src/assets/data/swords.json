@@ -1,21 +1,268 @@
 [
-    {
-        "id": 50,
-        "name": "Ás de Copas",
-        "image": "assets/cards/cups/ace.jpg",
-        "arcana": "minor",
-        "suit": "cups",
-        "meanings": {
-        "general": "Novo começo emocional",
-        "career": "Satisfação no trabalho",
-        "health": "Equilíbrio emocional",
-        "relationships": "Novo amor"
-        },
-        "reversedMeanings": {
-        "general": "Bloqueio emocional",
-        "career": "Desmotivação",
-        "health": "Tristeza",
-        "relationships": "Desconexão"
-        }
+  {
+    "id": 50,
+    "name": "Ás de Espadas",
+    "image": "assets/cards/swords/ace.jpg",
+    "arcana": "minor",
+    "suit": "swords",
+    "meanings": {
+      "general": "Clareza mental absoluta, avanço intelectual, revelação da verdade, poder de decisão e o corte de ilusões.",
+      "career": "Uma nova ideia brilhante, resolução definitiva de um problema complexo ou início de um projeto focado na estratégia.",
+      "health": "Diagnóstico preciso, decisões cirúrgicas acertadas ou uma súbita clareza sobre como cuidar da própria mente e corpo.",
+      "relationships": "Uma conversa honesta e definitiva que esclarece tudo, transparência mútua ou o início de uma relação racional."
+    },
+    "reversedMeanings": {
+      "general": "Confusão mental, mal-entendidos profundos, verdade distorcida, injustiça ou o uso cruel das palavras.",
+      "career": "Falta de foco nos planos, decisões tomadas sem lógica, erros por falta de análise ou falha severa de comunicação.",
+      "health": "Ansiedade mental paralisante, enxaquecas por excesso de pensamentos ou diagnósticos confusos e imprecisos.",
+      "relationships": "Discussões ríspidas por motivos banais, palavras ditas no impulso que machucam o parceiro ou falta de sinceridade."
     }
+  },
+  {
+    "id": 51,
+    "name": "Dois de Espadas",
+    "image": "assets/cards/swords/two.jpg",
+    "arcana": "minor",
+    "suit": "swords",
+    "meanings": {
+      "general": "Indecisão, impasse, necessidade de ponderar caminhos opostos com racionalidade e o equilíbrio antes da escolha.",
+      "career": "Momento de avaliar duas propostas com cuidado, neutralidade diante de conflitos na equipe ou trégua estratégica.",
+      "health": "Necessidade de buscar uma segunda opinião médica, ou o esforço mental para equilibrar as emoções e a razão.",
+      "relationships": "Fase de silêncio ou distanciamento para evitar brigas, ou um impasse onde ambos evitam tocar em assuntos difíceis."
+    },
+    "reversedMeanings": {
+      "general": "Fim do impasse, tomada de decisão forçada pela realidade, mentiras expostas ou sobrecarga por indecisão prolongada.",
+      "career": "Ruptura de acordos mornos, obrigatoriedade de escolher um lado em um conflito ou revelação de dados ocultos.",
+      "health": "Esgotamento gerado por dúvidas constantes, estresse acumulado ou liberação súbita de emoções reprimidas.",
+      "relationships": "Discussões acumuladas que vêm à tona de uma vez, fim de uma trégua desconfortável ou a necessidade de encarar a crise."
+    }
+  },
+  {
+    "id": 52,
+    "name": "Três de Espadas",
+    "image": "assets/cards/swords/three.jpg",
+    "arcana": "minor",
+    "suit": "swords",
+    "meanings": {
+      "general": "Dor emocional, decepção, feridas provocadas pela verdade, tristeza necessária para o aprendizado e libertação de ilusões.",
+      "career": "Frustração com o encerramento de um contrato, feedbacks dolorosos mas necessários ou fim abrupto de uma parceria.",
+      "health": "Coração partido somatizando no corpo, dores no peito por ansiedade ou necessidade de cuidar intensamente da saúde emocional.",
+      "relationships": "Decepção amorosa, descoberta de uma quebra de confiança, términos dolorosos ou a necessidade de encarar uma verdade triste."
+    },
+    "reversedMeanings": {
+      "general": "Cura de dores antigas, superação de uma grande mágoa, perdão e o início do processo de reconstrução interna.",
+      "career": "Recuperação após uma demissão ou perda financeira, superação de intrigas corporativas e novos planos em mente.",
+      "health": "Alívio de dores físicas crônicas causadas por estresse, recuperação emocional e volta gradativa da disposição.",
+      "relationships": "Reconciliação após uma crise severa, aceitação do fim de uma relação e abertura lenta para novos afetos."
+    }
+  },
+  {
+    "id": 53,
+    "name": "Quatro de Espadas",
+    "image": "assets/cards/swords/four.jpg",
+    "arcana": "minor",
+    "suit": "swords",
+    "meanings": {
+      "general": "Descanso necessário, pausa estratégica, recolhimento mental para recuperação de energias e distanciamento do caos.",
+      "career": "Momento de tirar férias, desacelerar o ritmo de entregas para evitar o esgotamento ou planejamento silencioso.",
+      "health": "Convalescença bem-sucedida, repouso médico essencial e a importância do sono e da meditação para o cérebro.",
+      "relationships": "Dar um tempo nos conflitos do casal para esfriar a cabeça, ou necessidade de individualidade temporária na relação."
+    },
+    "reversedMeanings": {
+      "general": "Retorno à atividade após um descanso, insônia por mente agitada, inquietação ou o erro de voltar à ação antes da hora.",
+      "career": "Fim de um período de licença, necessidade urgente de retomar prazos ou esgotamento por não saber a hora de parar.",
+      "health": "Recaídas por falta de repouso adequado, distúrbios crônicos do sono ou cansaço acumulado por estresse intelectual.",
+      "relationships": "Retomada de diálogos após um afastamento, ou insistência em discutir assuntos complexos com a mente ainda cansada."
+    }
+  },
+  {
+    "id": 54,
+    "name": "Cinco de Espadas",
+    "image": "assets/cards/swords/five.jpg",
+    "arcana": "minor",
+    "suit": "swords",
+    "meanings": {
+      "general": "Conflitos de ego, vitórias vazias, hostilidade, a percepção de que ganhar a discussão a qualquer custo pode gerar perdas humanas.",
+      "career": "Ambiente corporativo hostil, competição desleal entre colegas ou discussões onde ninguém quer ceder a razão.",
+      "health": "Esgotamento físico gerado por discussões constantes e estresse severo provocado pelo ambiente externo.",
+      "relationships": "Brigas destrutivas onde o orgulho fala mais alto que o amor, discussões tóxicas e ressentimentos acumulados."
+    },
+    "reversedMeanings": {
+      "general": "Fim de hostilidades, desejo de fazer as pazes, abandono do orgulho ferido e superação de picuinhas inúteis.",
+      "career": "Resolução de um clima pesado na equipe, descarte de fofocas e foco em trabalhar de forma pacífica novamente.",
+      "health": "Alívio do estresse gerado por ambientes pesados e início de uma rotina mais pacífica para o sistema nervoso.",
+      "relationships": "Decisão de encerrar jogos mentais no relacionamento, pedido sincero de desculpas ou término definitivo de um vínculo tóxico."
+    }
+  },
+  {
+    "id": 55,
+    "name": "Seis de Espadas",
+    "image": "assets/cards/swords/six.jpg",
+    "arcana": "minor",
+    "suit": "swords",
+    "meanings": {
+      "general": "Transição para águas mais calmas, afastamento de problemas, viagens necessárias, superação gradual de crises e busca por paz.",
+      "career": "Mudança para um emprego mais tranquilo, superação de uma fase caótica nos negócios e melhora no ritmo de trabalho.",
+      "health": "Melhora progressiva de quadros agudos de saúde, início de um tratamento focado na calmaria e reabilitação.",
+      "relationships": "O casal superando uma fase difícil juntos, viagens para relaxar ou o distanciamento consciente de dinâmicas pesadas."
+    },
+    "reversedMeanings": {
+      "general": "Resistência a mudanças necessárias, problemas que viajam com você, atrasos em transições ou sensação de estar preso ao caos.",
+      "career": "Dificuldade de adaptação a um novo cargo, recusa em deixar métodos antigos ou projetos que enfrentam barreiras repetitivas.",
+      "health": "Recuperação lenta devido à teimosia em não mudar de hábitos, ou retorno de dores antigas durante o processo de cura.",
+      "relationships": "Incapacidade de esquecer mágoas do passado mesmo tentando recomeçar, ou pendências emocionais travando a evolução do par."
+    }
+  },
+  {
+    "id": 56,
+    "name": "Sete de Espadas",
+    "image": "assets/cards/swords/seven.jpg",
+    "arcana": "minor",
+    "suit": "swords",
+    "meanings": {
+      "general": "Estratégia, discrição, agir nos bastidores, inteligência tática ou a necessidade de cautela contra mentiras e trapaças.",
+      "career": "Planejamento secreto de novos passos profissionais, proteção de ideias autorais ou necessidade de malícia com concorrentes.",
+      "health": "Tratamentos preventivos feitos com discrição, ou o alerta para não negligenciar pequenos sintomas camuflados.",
+      "relationships": "Necessidade de manter a privacidade do casal longe de fofocas alheias, ou atitudes esquivas que geram desconfiança."
+    },
+    "reversedMeanings": {
+      "general": "Mentiras desmascaradas, conselhos úteis aceitos, quebra de disfarces, arrependimento de atos desonestos ou clareza absoluta.",
+      "career": "Descoberta de fraudes em projetos, admissão de erros técnicos ou descarte de estratégias que eram ineficazes.",
+      "health": "Diagnóstico de um problema que estava camuflado no organismo e início imediato do tratamento correto.",
+      "relationships": "Revelação de segredos ocultos na relação, conversas francas que destroem desconfianças ou fim de joguinhos de desinteresse."
+    }
+  },
+  {
+    "id": 57,
+    "name": "Oito de Espadas",
+    "image": "assets/cards/swords/eight.jpg",
+    "arcana": "minor",
+    "suit": "swords",
+    "meanings": {
+      "general": "Sensação de aprisionamento, autossabotagem, medos paralisantes criados pela própria mente e a dificuldade de enxergar a saída óbvia.",
+      "career": "Sentir-se preso a um emprego infeliz por medo do mercado, bloqueio criativo por insegurança ou medo do julgamento alheio.",
+      "health": "Crises de pânico, ansiedade limitante ou sensação de impotência física gerada pelo esgotamento mental.",
+      "relationships": "Sentir-se sufocado na relação atual mas ter medo da solidão, insegurança crônica sabotando a felicidade a dois."
+    },
+    "reversedMeanings": {
+      "general": "Libertação mental, enxergar a saída de um problema, superação de crenças limitantes e tomada de atitude prática.",
+      "career": "Decisão de sair de um emprego ruim, superação do medo de arriscar novas vagas e clareza sobre o próprio potencial.",
+      "health": "Superação gradual de fobias e crises de ansiedade, retomada do controle sobre o próprio bem-estar corporal.",
+      "relationships": "Ruptura de amarras emocionais prejudiciais, fim da dependência do outro e retomada da autoestima amorosa."
+    }
+  },
+  {
+    "id": 58,
+    "name": "Nove de Espadas",
+    "image": "assets/cards/swords/nine.jpg",
+    "arcana": "minor",
+    "suit": "swords",
+    "meanings": {
+      "general": "Ansiedade extrema, preocupações noturnas, culpa, pesadelos, estresse mental aguçado e o hábito de maximizar os problemas.",
+      "career": "Medo excessivo de falhar em prazos, estresse corporativo que tira o sono ou preocupações exageradas com finanças.",
+      "health": "Insônia crônica, esgotamento do sistema nervoso por estresse e dores de cabeça frequentes devido à tensão intelectual.",
+      "relationships": "Medo irracional de perder o parceiro, paranoias infundadas gerando discussões ou culpa acumulada na dinâmica a dois."
+    },
+    "reversedMeanings": {
+      "general": "Fim de um pesadelo mental, clareza após o desespero, aceitação da realidade e alívio das preocupações.",
+      "career": "Percepção de que os problemas profissionais eram menores do que pareciam, retomada da calma para resolver pendências.",
+      "health": "Regulação gradual do ciclo de sono, alívio de crises agudas de estresse e melhora significativa da saúde mental.",
+      "relationships": "Superação de medos e paranoias no namoro, conversas que acalmam o coração e fim do sentimento de culpa mútua."
+    }
+  },
+  {
+    "id": 59,
+    "name": "Dez of Espadas",
+    "image": "assets/cards/swords/ten.jpg",
+    "arcana": "minor",
+    "suit": "swords",
+    "meanings": {
+      "general": "Fim definitivo de uma situação difícil, esgotamento total, fundo do poço de uma crise e a certeza de que a partir daqui só resta subir.",
+      "career": "Encerramento abrupto de um ciclo profissional desgastante, falência de um método antigo ou demissão que força um recomeço.",
+      "health": "Esgotamento físico absoluto (burnout), necessidade urgente de parar tudo para se recuperar e fim de um sofrimento agudo.",
+      "relationships": "Término definitivo de uma relação que já estava totalmente destruída, corte definitivo de vínculos que faziam mal."
+    },
+    "reversedMeanings": {
+      "general": "Sobrevivência a uma grande crise, início lento de uma reconstrução, superação do pior momento e renovação das forças.",
+      "career": "Recomeço profissional do zero após perdas, aprendizado doloroso transformado em resiliência e busca por novos rumos.",
+      "health": "Recuperação gradativa após um colapso físico ou mental severo, adotando cuidados extremos de reabilitação.",
+      "relationships": "Cura interna após um término devastador, ou a decisão mútua de reconstruir a relação destruindo velhos vícios."
+    }
+  },
+  {
+    "id": 60,
+    "name": "Valete de Espadas",
+    "image": "assets/cards/swords/page.jpg",
+    "arcana": "minor",
+    "suit": "swords",
+    "meanings": {
+      "general": "Curiosidade intelectual, vigilância, mente analítica jovem, busca por informações, notícias rápidas e ideias lógicas inovadoras.",
+      "career": "Fase de pesquisas intensas para projetos, aprendizado ávido de novas ferramentas técnicas e atenção aos detalhes contratuais.",
+      "health": "Interesse em compreender a lógica do próprio corpo, exames detalhados e mente ativa no monitoramento da rotina.",
+      "relationships": "Diálogos racionais e curiosos na relação, flertes baseados na afinidade intelectual ou necessidade de clareza nas intenções."
+    },
+    "reversedMeanings": {
+      "general": "Fofocas prejudiciais, espionagem barata na vida alheia, cinismo, palavras ácidas sem maturidade ou ideias confusas.",
+      "career": "Uso de informações de forma antiética, críticas destrutivas e infantis na equipe ou falta de profundidade nos estudos.",
+      "health": "Paranoia com pequenos sintomas por excesso de pesquisas médicas na internet, gerando ansiedade boba.",
+      "relationships": "Bisbilhotar as redes sociais do parceiro por desconfiança infantil, DRs cansativas baseadas em suposições erradas."
+    }
+  },
+  {
+    "id": 61,
+    "name": "Cavaleiro de Espadas",
+    "image": "assets/cards/swords/knight.jpg",
+    "arcana": "minor",
+    "suit": "swords",
+    "meanings": {
+      "general": "Ação rápida e impetuosa, determinação lógica, defesa cega de ideias, mente afiada focada em cortar obstáculos com velocidade.",
+      "career": "Defesa enérgica de um projeto em reuniões, resolução assertiva de crises corporativas e avanço rápido em direção às metas.",
+      "health": "Energia mental intensa impulsionando a tomada de atitudes rápidas para mudar a rotina, mas exige cuidado com a pressa.",
+      "relationships": "Tomada de atitude direta para resolver impasses afetivos, assertividade na comunicação e posicionamentos francos."
+    },
+    "reversedMeanings": {
+      "general": "Impulsividade destrutiva, agressividade verbal, agir sem pensar na lógica, fanatismo ideológico ou pressa que gera erros.",
+      "career": "Discussões ásperas com a liderança por pura teimosia, decisões executivas precipitadas que causam prejuízos contratuais.",
+      "health": "Risco de pequenas lesões por pressa ou movimentos bruscos em exercícios, estresse agudo por mente acelerada demais.",
+      "relationships": "Brigas explosivas causadas por palavras cruéis ditas sem pensar, intolerância com o ritmo do parceiro e grosseria."
+    }
+  },
+  {
+    "id": 62,
+    "name": "Rainha de Espadas",
+    "image": "assets/cards/swords/queen.jpg",
+    "arcana": "minor",
+    "suit": "swords",
+    "meanings": {
+      "general": "Independência mental, discernimento agudo, honestidade realista, proteção de limites pessoais e inteligência estratégica madura.",
+      "career": "Liderança justa, técnica e focada na eficiência; excelente capacidade de cortar gastos desnecessários e analisar dados friamente.",
+      "health": "Forte controle mental sobre o corpo, disciplina racional com a saúde e capacidade de cortar hábitos nocivos de forma definitiva.",
+      "relationships": "Relação baseada no respeito mútuo ao espaço individual, comunicação clara e sem rodeios, mas com certa reserva emocional."
+    },
+    "reversedMeanings": {
+      "general": "Amargura, frieza excessiva calculista, críticas ácidas destrutivas, isolamento defensivo ou manipulação intelectual.",
+      "career": "Chefe excessivamente fria e insensível com a equipe, cobranças perfeccionistas irreais ou fofocas inteligentes nocivas.",
+      "health": "Somatização de rancores guardados, rigidez mental afetando o bem-estar físico e estresse por excesso de racionalização.",
+      "relationships": "Distanciamento gélido que impede o afeto, cobranças irônicas na dinâmica de casal e incapacidade de se vulnerabilizar."
+    }
+  },
+  {
+    "id": 63,
+    "name": "Rei de Espadas",
+    "image": "assets/cards/swords/king.jpg",
+    "arcana": "minor",
+    "suit": "swords",
+    "meanings": {
+      "general": "Autoridade intelectual máxima, julgamento imparcial, ética rígida, domínio da lógica e a capacidade de governar pela razão clara.",
+      "career": "Líder estratégico altamente respeitado, consultor técnico brilhante, decisões corporativas pautadas na justiça e leis.",
+      "health": "Excelente discernimento para seguir tratamentos complexos à risca, mente focada na estabilidade e equilíbrio neurológico.",
+      "relationships": "Parceiro lógico, justo e intelectualmente estimulante; relacionamento estruturado na verdade, clareza e respeito mútuo."
+    },
+    "reversedMeanings": {
+      "general": "Tirania intelectual, cinismo cruel, manipulação de leis ou regras para benefício próprio, arrogância ou frieza extrema.",
+      "career": "Abuso de autoridade com subordinados, decisões injustas por puro ego intelectual ou rigidez corporativa paralisante.",
+      "health": "Negligência com o lado emocional da saúde por achar que tudo se resolve na base do controle mental racional puro.",
+      "relationships": "Controle frio e punitivo sobre o parceiro através de silêncios intencionais, arrogância e falta total de empatia afetiva."
+    }
+  }
 ]

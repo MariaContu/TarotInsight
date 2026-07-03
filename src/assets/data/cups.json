@@ -1,40 +1,268 @@
 [
-    {
-        "id": 50,
-        "name": "Ás de Copas",
-        "image": "assets/cards/cups/ace.jpg",
-        "arcana": "minor",
-        "suit": "cups",
-        "meanings": {
-        "general": "Novo começo emocional",
-        "career": "Satisfação no trabalho",
-        "health": "Equilíbrio emocional",
-        "relationships": "Novo amor"
-        },
-        "reversedMeanings": {
-        "general": "Bloqueio emocional",
-        "career": "Desmotivação",
-        "health": "Tristeza",
-        "relationships": "Desconexão"
-        }
+  {
+    "id": 22,
+    "name": "Ás de Copas",
+    "image": "assets/cards/cups/ace.jpg",
+    "arcana": "minor",
+    "suit": "cups",
+    "meanings": {
+      "general": "Início de um ciclo emocional, transbordamento de sentimentos, intuição pura e novas conexões afetivas.",
+      "career": "Novo projeto apaixonante, ambiente de trabalho harmonioso ou descoberta de uma verdadeira vocação.",
+      "health": "Excelente vitalidade, renovação da saúde mental e forte equilíbrio emocional refletido no corpo.",
+      "relationships": "Início de um amor avassalador, nascimento de um sentimento sincero ou reconciliação profunda."
     },
-    {
-        "id": 51,
-        "name": "Dois de Copas",
-        "image": "assets/cards/cups/two.jpg",
-        "arcana": "minor",
-        "suit": "cups",
-        "meanings": {
-        "general": "União, parceria",
-        "career": "Colaboração",
-        "health": "Equilíbrio",
-        "relationships": "Amor verdadeiro"
-        },
-        "reversedMeanings": {
-        "general": "Desequilíbrio",
-        "career": "Conflitos",
-        "health": "Instabilidade",
-        "relationships": "Desentendimento"
-        }
+    "reversedMeanings": {
+      "general": "Bloqueio emocional, sentimentos reprimidos, esgotamento afetivo ou intuição ignorada.",
+      "career": "Falta de motivação no que faz, ambiente profissional frio ou expectativas irrealistas com um projeto.",
+      "health": "Instabilidade emocional que afeta o físico, desânimo ou retenção de líquidos e toxinas.",
+      "relationships": "Amor não correspondido, carência excessiva, desilusão amorosa ou bloqueio para expressar o que sente."
     }
+  },
+  {
+    "id": 23,
+    "name": "Dois de Copas",
+    "image": "assets/cards/cups/two.jpg",
+    "arcana": "minor",
+    "suit": "cups",
+    "meanings": {
+      "general": "Parceria, união, reciprocidade, equilíbrio nas relações e forte conexão entre duas forças ou pessoas.",
+      "career": "Sociedades de negócios promissoras, contratos selados com facilidade e excelente trabalho em equipe.",
+      "health": "Boa harmonia física e mental, recuperação acelerada através do apoio de pessoas queridas.",
+      "relationships": "Conexão amorosa profunda, harmonia perfeita, compromisso mútuo e atração mútua legítima."
+    },
+    "reversedMeanings": {
+      "general": "Falta de sintonia, desentendimento, desalinhamento de interesses e distanciamento.",
+      "career": "Conflitos com sócios ou colegas, falha de comunicação em equipe ou quebra de acordos comerciais.",
+      "health": "Desequilíbrios físicos causados por estresse interpessoal ou discussões desgastantes.",
+      "relationships": "Falta de reciprocidade, brigas constantes por bobeira, incompatibilidade ou fim temporário da harmonia."
+    }
+  },
+  {
+    "id": 24,
+    "name": "Três de Copas",
+    "image": "assets/cards/cups/three.jpg",
+    "arcana": "minor",
+    "suit": "cups",
+    "meanings": {
+      "general": "Celebração, amizade, comunidade, partilha de alegrias e o contentamento de estar entre pessoas queridas.",
+      "career": "Sucesso comemorado em equipe, conclusão feliz de um projeto coletivo e ótimo clima corporativo.",
+      "health": "Vitalidade em alta, bem-estar contagiante e melhora significativa através do convívio social saudável.",
+      "relationships": "Momentos felizes a dois, celebração de marcos importantes (noivado, conquistas) ou fortalecimento dos laços afetivos."
+    },
+    "reversedMeanings": {
+      "general": "Excessos em festas, fofocas no círculo social, isolamento ou sentimentos de exclusão.",
+      "career": "Falta de profissionalismo por excesso de intimidade, intrigas no escritório ou dispersão de foco.",
+      "health": "Ressaca, cansaço por excesso de noitadas ou descuidos com a alimentação em eventos sociais.",
+      "relationships": "Interferência prejudicial de terceiros na relação, ciúme de amigos ou festas mascarando problemas reais."
+    }
+  },
+  {
+    "id": 25,
+    "name": "Quatro de Copas",
+    "image": "assets/cards/cups/four.jpg",
+    "arcana": "minor",
+    "suit": "cups",
+    "meanings": {
+      "general": "Apatia, tédio, insatisfação com a rotina, introspecção excessiva e o hábito de ignorar novas oportunidades por desinteresse.",
+      "career": "Desmotivação crônica com as funções atuais, recusa de novas propostas por medo ou pura estagnação mental.",
+      "health": "Cansaço psicológico, falta de disposição física decorrente do desânimo crônico e letargia.",
+      "relationships": "Rotina desgastante no namoro/casamento, desinteresse por conhecer pessoas novas ou indiferença afetiva."
+    },
+    "reversedMeanings": {
+      "general": "Despertar da apatia, aceitação de novos caminhos, fim do tédio e abertura para a vida.",
+      "career": "Retomada da ambição, aceitação de um desafio antes rejeitado e novas ideias voltando a surgir.",
+      "health": "Recuperação da energia vital, quebra do sedentarismo e melhora significativa do humor.",
+      "relationships": "Decisão de sair do tédio a dois, abertura para um novo amor após um período de isolamento voluntário."
+    }
+  },
+  {
+    "id": 26,
+    "name": "Cinco de Copas",
+    "image": "assets/cards/cups/five.jpg",
+    "arcana": "minor",
+    "suit": "cups",
+    "meanings": {
+      "general": "Lamentação pelo passado, foco nas perdas, decepção emocional e a dificuldade de enxergar o que ainda resta de positivo.",
+      "career": "Frustração com um projeto que falhou, prejuízo financeiro lamentado ou sensação de arrependimento profissional.",
+      "health": "Tristeza profunda que afeta a imunidade, melancolia e necessidade urgente de acolhimento psicológico.",
+      "relationships": "Magoas guardadas, término doloroso ou foco excessivo nos erros passados do parceiro, impedindo o avanço."
+    },
+    "reversedMeanings": {
+      "general": "Aceitação da perda, superação do luto emocional, olhar para o futuro e recomeço.",
+      "career": "Recuperação após uma crise nos negócios, aprendizado com os erros e busca por novas vagas.",
+      "health": "Saída progressiva de estados depressivos e melhora da disposição física geral.",
+      "relationships": "Cura de feridas antigas, superação de um término ou decisão mútua de perdoar erros e seguir em frente."
+    }
+  },
+  {
+    "id": 27,
+    "name": "Seis de Copas",
+    "image": "assets/cards/cups/six.jpg",
+    "arcana": "minor",
+    "suit": "cups",
+    "meanings": {
+      "general": "Nostalgia saudável, resgate de memórias felizes, inocência, generosidade e a reconexão com as próprias raízes.",
+      "career": "Retorno a um antigo emprego ou área de atuação, projetos baseados em ideias antigas e parcerias com conhecidos de longa data.",
+      "health": "Boa recuperação física ligada ao conforto do lar e ao repouso emocional perto de familiares.",
+      "relationships": "Retorno de um amor do passado, romantismo ingênuo, pureza nos sentimentos e cumplicidade nostálgica."
+    },
+    "reversedMeanings": {
+      "general": "Ficar preso ao passado de forma prejudicial, recusa em amadurecer ou viver de aparências ultrapassadas.",
+      "career": "Dificuldade de se adaptar às novas tecnologias do mercado por insistência em métodos obsoletos.",
+      "health": "Problemas de saúde de infância que ressurgem ou somatização por traumas antigos não resolvidos.",
+      "relationships": "Comparação destrutiva do parceiro atual com o ex, ou incapacidade de evoluir a dinâmica da relação por infantilidade."
+    }
+  },
+  {
+    "id": 28,
+    "name": "Sete de Copas",
+    "image": "assets/cards/cups/seven.jpg",
+    "arcana": "minor",
+    "suit": "cups",
+    "meanings": {
+      "general": "Excesso de opções, ilusões, castelos de areia, falta de foco e a necessidade de separar a realidade da fantasia.",
+      "career": "Muitas propostas vagas sem concretude, falta de direcionamento nos objetivos ou promessas corporativas falsas.",
+      "health": "Confusão mental, distúrbios psicossomáticos difíceis de diagnosticar ou problemas por excesso de escapismo.",
+      "relationships": "Idealização excessiva do parceiro ideal, confusão de sentimentos ou tendência a flertes superficiais sem compromisso."
+    },
+    "reversedMeanings": {
+      "general": "Pés no chão, escolhas conscientes, clareza mental absoluta e o fim de ilusões enganosas.",
+      "career": "Definição clara de metas profissionais, descarte de projetos inviáveis e foco na execução real.",
+      "health": "Diagnóstico preciso de sintomas, corte de vícios e adoção de hábitos de saúde pragmáticos.",
+      "relationships": "Enxergar o parceiro como ele realmente é, fim de ilusões amorosas e busca por compromissos reais."
+    }
+  },
+  {
+    "id": 29,
+    "name": "Oito de Copas",
+    "image": "assets/cards/cups/eight.jpg",
+    "arcana": "minor",
+    "suit": "cups",
+    "meanings": {
+      "general": "Abandono voluntário de uma situação desgastada, busca por maior propósito espiritual e a coragem de virar as costas para o que não preenche mais.",
+      "career": "Pedido de demissão por falta de propósito, encerramento voluntário de uma sociedade ou mudança drástica de área.",
+      "health": "Busca por cura interior, detox emocional e desapego de ambientes que faziam mal à saúde física.",
+      "relationships": "Afastamento consciente de uma relação que perdeu o sentido, término maduro e busca por solitude."
+    },
+    "reversedMeanings": {
+      "general": "Medo de desapegar, persistência em uma situação falida, retorno a um lugar tóxico ou covardia emocional.",
+      "career": "Manter-se em uma empresa estagnada por puro medo do desemprego, mesmo infeliz crônico.",
+      "health": "Recusa em mudar de ambiente mesmo sabendo que ele causa adoecimento e estresse contínuo.",
+      "relationships": "Voltar para um relacionamento que já acabou por carência crônica ou medo de ficar sozinho."
+    }
+  },
+  {
+    "id": 30,
+    "name": "Nove de Copas",
+    "image": "assets/cards/cups/nine.jpg",
+    "arcana": "minor",
+    "suit": "cups",
+    "meanings": {
+      "general": "Desejo realizado, satisfação pessoal, contentamento, conforto material e uma profunda sensação de bem-estar individual.",
+      "career": "Alcançar as metas desejadas, estabilidade financeira confortável e orgulho dos próprios feitos.",
+      "health": "Excelente saúde, vitalidade estável e prazer em cuidar da estética e do corpo de forma equilibrada.",
+      "relationships": "Fase de grande amor-próprio, contentamento na vida a dois e segurança emocional com o parceiro."
+    },
+    "reversedMeanings": {
+      "general": "Insatisfação mesmo conquistando o que queria, ganância, egocentrismo ou excessos superficiais.",
+      "career": "Sucesso aparente que esconde frustração interna, arrogância com subordinados ou gastos ostentativos excessivos.",
+      "health": "Problemas decorrentes de excessos na alimentação, bebidas ou sedentarismo por puro comodismo.",
+      "relationships": "Superficialidade na relação, focar apenas no status social do casal ou carência disfarçada de orgulho."
+    }
+  },
+  {
+    "id": 31,
+    "name": "Dez de Copas",
+    "image": "assets/cards/cups/ten.jpg",
+    "arcana": "minor",
+    "suit": "cups",
+    "meanings": {
+      "general": "Felicidade plena, harmonia familiar, realização emocional coletiva, paz doméstica e alinhamento de valores com o entorno.",
+      "career": "Ambiente de trabalho acolhedor, conquistas compartilhadas e estabilidade a longo prazo que beneficia a família.",
+      "health": "Excelente equilíbrio psicossomático, sensação de paz interna e saúde geral estável.",
+      "relationships": "Casamento feliz, união familiar sólida, realização de sonhos domésticos e amor pleno duradouro."
+    },
+    "reversedMeanings": {
+      "general": "Conflitos familiares, falta de harmonia no lar, isolamento afetivo ou quebra de expectativas comunitárias.",
+      "career": "Brigas de ego na equipe, fofocas que minam o ambiente coletivo ou trabalho que atrapalha a vida familiar.",
+      "health": "Estresse gerado por problemas familiares crônicos, afetando o sistema nervoso e o sono.",
+      "relationships": "Crise conjugal, discussões em casa, distanciamento emocional entre os parceiros ou interferência de parentes."
+    }
+  },
+  {
+    "id": 32,
+    "name": "Valete de Copas",
+    "image": "assets/cards/cups/page.jpg",
+    "arcana": "minor",
+    "suit": "cups",
+    "meanings": {
+      "general": "Mensagens emocionais inesperadas, sensibilidade artística, intuição jovem, curiosidade afetiva e novos sentimentos surgindo.",
+      "career": "Convites para projetos criativos, notícias sobre vagas de estágio/cursos ou necessidade de usar a criatividade inovadora.",
+      "health": "Corpo respondendo bem a tratamentos leves, sensibilidade a energias externas e bem-estar sutil.",
+      "relationships": "Flertes inocentes, declarações de amor inesperadas, romantismo renovado ou notícias de gravidez na família."
+    },
+    "reversedMeanings": {
+      "general": "Imaturidade emocional, notícias desanimadoras, vulnerabilidade excessiva ou futilidade.",
+      "career": "Projetos artísticos cancelados, distrações frequentes no horário de expediente ou falta de seriedade nas tarefas.",
+      "health": "Instabilidade emocional adolescente, birras físicas com rotinas saudáveis ou alergias psicossomáticas.",
+      "relationships": "Drama excessivo por motivos bobos, carência afetiva infantilizada ou promessas românticas infantis e vazias."
+    }
+  },
+  {
+    "id": 33,
+    "name": "Cavaleiro de Copas",
+    "image": "assets/cards/cups/knight.jpg",
+    "arcana": "minor",
+    "suit": "cups",
+    "meanings": {
+      "general": "Propostas românticas, charme, busca pelo ideal idealizado, diplomacia, portador de boas notícias e sensibilidade em movimento.",
+      "career": "Oportunidades profissionais trazidas por contatos simpáticos, sucesso em negociações mediadas pela empatia.",
+      "health": "Melhora progressiva da saúde através de terapias relaxantes e equilíbrio emocional ativo.",
+      "relationships": "Chegada de um parceiro romântico e sedutor, pedidos de namoro/casamento ou gestos românticos intensos."
+    },
+    "reversedMeanings": {
+      "general": "Sedução barata, falsidade disfarçada de simpatia, manipulação emocional ou ilusões passageiras.",
+      "career": "Propostas que parecem ótimas mas são furadas, colegas de trabalho duas caras ou falta de pragmatismo nas ações.",
+      "health": "Falta de ação real para cuidar do corpo por ficar apenas idealizando melhoras impossíveis.",
+      "relationships": "Parceiro infiel que pula de galho em galho, promessas vazias de amor eterno ou manipulação passivo-agressiva."
+    }
+  },
+  {
+    "id": 34,
+    "name": "Rainha de Copas",
+    "image": "assets/cards/cups/queen.jpg",
+    "arcana": "minor",
+    "suit": "cups",
+    "meanings": {
+      "general": "Empatia profunda, intuição aguçada, acolhimento materno, maturidade emocional, sensibilidade e apoio incondicional.",
+      "career": "Liderança acolhedora, profissões ligadas ao cuidado humano ou psicologia, e ambiente de trabalho pacificado.",
+      "health": "Excelente sintonia com as necessidades do próprio corpo e mente estável através do autocuidado.",
+      "relationships": "Parceira amorosa, dedicada e intuitiva; amor maduro baseado no acolhimento mútuo e na segurança emocional."
+    },
+    "reversedMeanings": {
+      "general": "Instabilidade emocional grave, chantagem passivo-agressiva, ciúme doentio ou dependência afetiva extrema.",
+      "career": "Envolver-se emocionalmente com problemas profissionais a ponto de adoecer, ou fofocas no ambiente corporativo.",
+      "health": "Somatização intensa de mágoas guardadas, crises de ansiedade ou depressão por tentar carregar as dores alheias.",
+      "relationships": "Sufocamento do parceiro com cobranças por atenção, possessividade disfarçada de cuidado ou mágoas profundas."
+    }
+  },
+  {
+    "id": 35,
+    "name": "Rei de Copas",
+    "image": "assets/cards/cups/king.jpg",
+    "arcana": "minor",
+    "suit": "cups",
+    "meanings": {
+      "general": "Controle emocional absoluto, sabedoria, diplomacia, generosidade pacífica, equilíbrio entre a mente racional e o sentimento.",
+      "career": "Mentor profissional respeitável, capacidade de gerenciar crises com calma e liderança estável e ética.",
+      "health": "Forte resiliência mental e física, saúde equilibrada e controle sobre o estresse cotidiano.",
+      "relationships": "Parceiro protetor, maduro e fiel; relacionamento seguro e baseado na compreensão mútua profunda."
+    },
+    "reversedMeanings": {
+      "general": "Manipulação fria, frieza emocional oculta, abuso de poder através de chantagens ou vícios perigosos.",
+      "career": "Chefe tirano disfarçado de compreensivo, desonestidade em transações comerciais ou favoritismo injusto.",
+      "health": "Problemas de saúde decorrentes de emoções engolidas por orgulho ou propensão a vícios químicos.",
+      "relationships": "Parceiro controlador e distante emocionalmente, jogos de poder na relação ou infidelidade mascarada por boa conduta."
+    }
+  }
 ]

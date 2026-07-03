@@ -1,11 +1,59 @@
-<div class="card-container" (click)="toggleFlip()">
-    <div class="card" [class.flipped]="flipped">
-    <div class="front">
-        <img [src]="card.image" [alt]="card.name">
-        <p>{{ card.name }}</p>
+<div class="card-wrapper">
+
+  <div class="image-section">
+    <div class="image" [class.inverted]="isInverted" (click)="toggleInvert()">
+      <img [src]="card.image" [alt]="card.name" />
     </div>
-    <div class="back">
-        <p>{{ getMeaning() }}</p>
+    <span class="hint">Clique para inverter</span>
+    @if (isInverted) {
+      <span class="inverted-badge">Invertida</span>
+    }
+  </div>
+
+  <div class="info" [class.inverted-info]="isInverted">
+
+    <div class="card-header">
+      <h3 class="card-title">{{ card.name }}</h3>
+      <span class="arcana-badge">
+        {{ card.arcana === 'major' ? 'Arcano Maior' : card.suit }}
+      </span>
     </div>
+
+    <div class="reading-tabs">
+      <div class="meaning-block">
+        <span class="reading-label">{{ getReadingLabel() }}</span>
+        <p class="reading-text">{{ getMeanings()[activeReading] }}</p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="all-meanings">
+        @if (activeReading !== 'general') {
+          <div class="meaning">
+            <strong>Geral</strong>
+            <p>{{ getMeanings().general }}</p>
+          </div>
+        }
+        @if (activeReading !== 'career') {
+          <div class="meaning">
+            <strong>Carreira</strong>
+            <p>{{ getMeanings().career }}</p>
+          </div>
+        }
+        @if (activeReading !== 'health') {
+          <div class="meaning">
+            <strong>Saúde</strong>
+            <p>{{ getMeanings().health }}</p>
+          </div>
+        }
+        @if (activeReading !== 'relationships') {
+          <div class="meaning">
+            <strong>Relacionamentos</strong>
+            <p>{{ getMeanings().relationships }}</p>
+          </div>
+        }
+      </div>
     </div>
+
+  </div>
 </div>

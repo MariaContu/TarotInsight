@@ -1,108 +1,79 @@
 # 🔮 Tarot Insight
 
-Aplicação front-end desenvolvida em Angular que simula leituras de tarot com foco em experiência do usuário, interatividade e organização de componentes.
+Aplicação front-end desenvolvida em Angular com o objetivo de servir como uma **biblioteca interativa de cartas de tarot**, permitindo explorar significados de forma visual, organizada e intuitiva.
+
+A aplicação também inclui um modo de **autoavaliação**, no qual o usuário pode sortear uma carta e tentar interpretar seu significado antes de revelá-lo.
 
 ---
 
 ## ✨ Funcionalidades
 
-* 🔮 Sorteio aleatório de cartas de tarot
-* 🔄 Suporte a cartas invertidas com significados diferentes
-* 🎴 Filtros por:
+📚 Biblioteca completa de cartas
 
-  * Arcano (Maior / Menor)
-  * Naipe (Copas, Espadas, Paus, Ouros)
-  * Tipo de leitura (Geral, Carreira, Saúde, Relacionamentos)
-* 🧠 Exibição dinâmica de significados
-* 🎨 Interface moderna com animações suaves (flip de carta)
-* 📜 Histórico de leituras *(em desenvolvimento)*
+- Visualização de todas as cartas organizadas por:
+  - Arcanos Maiores
+  - Copas
+  - Espadas
+  - Paus
+  - Ouros
+
+🔍 Exploração interativa
+
+- Clique em qualquer carta para visualizar:
+  - Nome
+  - Significados completos (geral, carreira, saúde, relacionamentos)
+
+🔄 Cartas invertidas
+
+- Possibilidade de inverter a carta com animação
+- Atualização dinâmica dos significados
+
+🎯 Modo desafio (aprendizado)
+
+- Sorteio de carta aleatória
+- Exibição apenas da carta
+- Botão para revelar significado
+- Ideal para praticar interpretação
+
+🎨 Interface moderna
+
+- Grid organizado por categorias
+- Modal para foco na carta
+- Animações suaves e feedback visual
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **Angular (Standalone Components)**
-* **TypeScript**
-* **SCSS**
-* **RxJS (básico)**
-* **Angular Animations**
-
----
-
-## 🧩 Estrutura do Projeto
-
-```bash
-src/
- ├── app/
- │   ├── components/
- │   │   ├── card/
- │   │   ├── filters/
- │   │   ├── history/
- │   │   ├── reading/
- │   │
- │   ├── pages/
- │   │   ├── home/
- │   │
- │   ├── services/
- │   │   ├── tarot.service.ts
- │   │
- │   ├── models/
- │   │   ├── card.model.ts
- │
- ├── assets/
- │   ├── data/
- │   │   ├── major.json
- │   │   ├── cups.json
- │   │   ├── swords.json
- │   │   ├── wands.json
- │   │   ├── pentacles.json
-```
+- Angular (Standalone Components)
+- TypeScript
+- SCSS
+- Angular Animations
+- Vite
 
 ---
 
 ## 🚀 Como executar o projeto
 
-```bash
-# instalar dependências
-npm install
-
-# rodar aplicação
+npm install  
 ng serve
-```
 
-A aplicação estará disponível em:
-👉 http://localhost:4200
+A aplicação estará disponível em: http://localhost:4200
 
 ---
 
 ## 🎯 Objetivo do Projeto
 
-Este projeto foi desenvolvido com o objetivo de:
-
-* Praticar desenvolvimento front-end com Angular
-* Aplicar conceitos de componentização e gerenciamento de estado
-* Trabalhar com manipulação de dados e interações dinâmicas
-* Construir uma interface visualmente agradável com foco em UX
-
----
-
-## 📌 Próximos passos
-
-* [ ] Implementar histórico persistente (localStorage)
-* [ ] Melhorar sistema de filtros (UX e performance)
-* [ ] Adicionar animações mais refinadas
-* [ ] Completar base de dados com todas as 78 cartas
+- Praticar desenvolvimento front-end com Angular
+- Trabalhar com componentização e organização de código
+- Criar uma experiência interativa focada em UX
+- Construir uma interface visual limpa e funcional
+- Explorar manipulação de dados e estados no front-end
 
 ---
 
 ## 👩‍💻 Autora
 
-Maria Eduarda Contu
-🔗 LinkedIn
-🔗 GitHub
-
----
-
-## 💡 Observações
-
-Este projeto faz parte do meu portfólio como desenvolvedora Full Stack, com foco em evolução técnica e construção de aplicações interativas.
+Maria Eduarda Contu  
+LinkedIn: https://www.linkedin.com/in/mecontudo/  
+GitHub: https://github.com/MariaContu

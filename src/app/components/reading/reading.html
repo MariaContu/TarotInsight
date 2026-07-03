@@ -1,1 +1,20 @@
-<p>reading works!</p>
+<div class="reading-wrapper">
+
+  @if (!card) {
+    <p class="prompt">Nenhuma carta sorteada ainda.</p>
+  } @else if (!revealed) {
+    <div class="challenge">
+      <div class="challenge-image">
+        <img [src]="card.image" [alt]="card.name">
+      </div>
+      <h3 class="challenge-name">{{ card.name }}</h3>
+      <p class="prompt">Tente lembrar o significado dessa carta antes de revelar.</p>
+      <button class="reveal-btn" (click)="onReveal()">Revelar significado</button>
+    </div>
+  } @else {
+    <app-card [card]="card" [activeReading]="activeReading"></app-card>
+  }
+
+  <button class="draw-again-btn" (click)="drawAnother.emit()">Sortear outra carta</button>
+
+</div>

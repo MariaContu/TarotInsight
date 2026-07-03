@@ -1,29 +1,37 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnChanges } from '@angular/core';
 import { Card } from '../../models/card.model';
 
 @Component({
   selector: 'app-card',
   standalone: true,
   templateUrl: './card.html',
-  styleUrl: './card.scss'
+  styleUrl: './card.scss',
 })
-export class CardComponent {
-
+export class CardComponent implements OnChanges {
   @Input() card!: Card;
-  @Input() isReversed = false;
-  @Input() readingType!: 'general' | 'career' | 'health' | 'relationships';
+  @Input() activeReading: 'general' | 'career' | 'health' | 'relationships' = 'general';
 
-  flipped = false;
+  isInverted = false;
 
-  toggleFlip() {
-    this.flipped = !this.flipped;
+  ngOnChanges() {
+    this.isInverted = false;
   }
 
-  getMeaning() {
-    if (!this.flipped) return '';
+  toggleInvert() {
+    this.isInverted = !this.isInverted;
+  }
 
-    return this.isReversed
-      ? this.card.reversedMeanings[this.readingType]
-      : this.card.meanings[this.readingType];
+  getMeanings() {
+    return this.isInverted ? this.card.reversedMeanings : this.card.meanings;
+  }
+
+  getReadingLabel(): string {
+    const labels = {
+      general: 'Geral',
+      career: 'Carreira',
+      health: 'Saúde',
+      relationships: 'Relacionamentos',
+    };
+    return labels[this.activeReading];
   }
 }

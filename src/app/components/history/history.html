@@ -1,1 +1,27 @@
-<p>history works!</p>
+<div class="history-overlay" (click)="close.emit()"></div>
+
+<div class="history-panel">
+  <div class="history-header">
+    <h3>Histórico</h3>
+    <button class="close-btn" (click)="close.emit()" aria-label="Fechar histórico">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M5 5l14 14M19 5L5 19"></path>
+      </svg>
+    </button>
+  </div>
+
+  @if (cards.length === 0) {
+    <p class="empty">Nenhuma carta visualizada ainda. Explore a biblioteca ou sorteie uma carta!</p>
+  } @else {
+    <div class="history-grid">
+      @for (c of cards; track c.id) {
+        <div class="history-item" (click)="select.emit(c)">
+          <img [src]="c.image" [alt]="c.name" loading="lazy">
+          <span>{{ c.name }}</span>
+        </div>
+      }
+    </div>
+
+    <button class="clear-btn" (click)="clear.emit()">Limpar histórico</button>
+  }
+</div>

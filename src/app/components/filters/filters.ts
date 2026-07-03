@@ -14,6 +14,26 @@ export class FiltersComponent {
 
   @Output() filtersChange = new EventEmitter<any>();
 
+  setArcana(arcana: 'all' | 'major' | 'minor') {
+    this.selectedArcana = arcana;
+
+    if (arcana === 'major') {
+      this.selectedSuit = 'all';
+    }
+
+    this.updateFilters();
+  }
+
+  setSuit(suit: 'all' | 'cups' | 'swords' | 'wands' | 'pentacles') {
+    this.selectedSuit = suit;
+    this.updateFilters();
+  }
+
+  setReading(reading: 'general' | 'career' | 'health' | 'relationships') {
+    this.selectedReading = reading;
+    this.updateFilters();
+  }
+
   updateFilters() {
     this.filtersChange.emit({
       arcana: this.selectedArcana,

@@ -1,21 +1,268 @@
 [
-    {
-        "id": 50,
-        "name": "Ás de Copas",
-        "image": "assets/cards/cups/ace.jpg",
-        "arcana": "minor",
-        "suit": "cups",
-        "meanings": {
-        "general": "Novo começo emocional",
-        "career": "Satisfação no trabalho",
-        "health": "Equilíbrio emocional",
-        "relationships": "Novo amor"
-        },
-        "reversedMeanings": {
-        "general": "Bloqueio emocional",
-        "career": "Desmotivação",
-        "health": "Tristeza",
-        "relationships": "Desconexão"
-        }
+  {
+    "id": 36,
+    "name": "Ás de Ouros",
+    "image": "assets/cards/pentacles/ace.jpg",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "meanings": {
+      "general": "Início de um ciclo de prosperidade, novas oportunidades financeiras, manifestação material e bases sólidas.",
+      "career": "Nova proposta de emprego excelente, início de um negócio próprio promissor ou bônus financeiro inesperado.",
+      "health": "Excelente vigor físico, energia corporal renovada e ótimas perspectivas de cura ou ganho de massa/vitalidade.",
+      "relationships": "Relacionamento que traz estabilidade e segurança, ou o início de uma união com bases muito realistas e duradouras."
+    },
+    "reversedMeanings": {
+      "general": "Oportunidades materiais perdidas, atrasos financeiros, ganância excessiva ou falta de planejamento prático.",
+      "career": "Investimento que não dá retorno, contratos que falham na reta final ou insatisfação com a remuneração atual.",
+      "health": "Negligência com os cuidados básicos do corpo, sedentarismo ou gastos excessivos com tratamentos ineficazes.",
+      "relationships": "Relação focada excessivamente no interesse material, instabilidade financeira afetando o casal ou possessividade."
     }
+  },
+  {
+    "id": 37,
+    "name": "Dois de Ouros",
+    "image": "assets/cards/pentacles/two.jpg",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "meanings": {
+      "general": "Equilíbrio dinâmico, adaptabilidade diante das mudanças, gestão de múltiplos recursos e flexibilidade no cotidiano.",
+      "career": "Conciliação de dois empregos ou projetos, jogo de cintura para lidar com prazos e boa gestão do tempo.",
+      "health": "Necessidade de equilibrar melhor o tempo de trabalho com o descanso para não sobrecarregar o organismo.",
+      "relationships": "Casal que consegue se adaptar bem às dificuldades rotineiras, equilibrando as contas e as responsabilidades mútuas."
+    },
+    "reversedMeanings": {
+      "general": "Desorganização financeira, falta de foco por tentar fazer tudo ao mesmo tempo e estresse por sobrecarga.",
+      "career": "Dificuldade para cumprir prazos, descontrole nas tarefas profissionais e sensação de estar apagando incêndios.",
+      "health": "Esgotamento por não conseguir manter uma rotina estável, flutuações de energia e cansaço extremo.",
+      "relationships": "Falta de tempo para o parceiro devido ao excesso de obrigações externas, gerando cobranças e desequilíbrio."
+    }
+  },
+  {
+    "id": 38,
+    "name": "Três de Ouros",
+    "image": "assets/cards/pentacles/three.jpg",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "meanings": {
+      "general": "Trabalho em equipe, reconhecimento profissional, aprimoramento de habilidades, colaboração e metas alcançadas com esforço mútuo.",
+      "career": "Sucesso em projetos coletivos, elogios da chefia por competência técnica e consolidação de uma boa reputação.",
+      "health": "Boa resposta a tratamentos que envolvem equipes multidisciplinares (médicos, nutricionistas, treinadores).",
+      "relationships": "Relacionamento baseado na construção conjunta de objetivos, onde ambos trabalham como um verdadeiro time."
+    },
+    "reversedMeanings": {
+      "general": "Falta de cooperação, trabalho mal executado por desatenção, individualismo prejudicial ou falta de qualificação.",
+      "career": "Conflitos com colegas de equipe, falta de reconhecimento pelos esforços ou estagnação por se recusar a aprender.",
+      "health": "Dificuldade em seguir orientações profissionais de saúde ou tratamentos feitos sem a devida constância.",
+      "relationships": "Divergência nos planos de futuro do casal, falta de apoio mútuo nas ambições pessoais ou discussões sobre tarefas domésticas."
+    }
+  },
+  {
+    "id": 39,
+    "name": "Quatro de Ouros",
+    "image": "assets/cards/pentacles/four.jpg",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "meanings": {
+      "general": "Estabilidade financeira, conservadorismo, proteção de bens, apego à segurança material e controle rígido de recursos.",
+      "career": "Emprego estável e seguro, retenção de lucros corporativos e postura cautelosa antes de dar novos passos.",
+      "health": "Corpo estável, mas com necessidade de liberar tensões e evitar o acúmulo de estresse por excesso de preocupação.",
+      "relationships": "Busca por segurança afetiva total, proteção mútua e um relacionamento sólido, embora por vezes um pouco rígido."
+    },
+    "reversedMeanings": {
+      "general": "Mão-de-vaca extrema ou, pelo contrário, gastos irresponsáveis; medo excessivo da escassez e apego a velhos hábitos.",
+      "career": "Medo de arriscar uma promoção por apego à zona de conforto, ou perdas financeiras por pura teimosia.",
+      "health": "Problemas de circulação ou retenção devido à falta de movimento, rigidez muscular e estresse crônico.",
+      "relationships": "Ciúme possessivo, sentimento de posse sobre o parceiro, insegurança crônica e falta de espaço individual na relação."
+    }
+  },
+  {
+    "id": 40,
+    "name": "Cinco de Ouros",
+    "image": "assets/cards/pentacles/five.jpg",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "meanings": {
+      "general": "Fase de escassez temporária, sensação de desamparo, dificuldades financeiras ou isolamento social.",
+      "career": "Prejuízos materiais, desemprego temporário ou sensação de não ser valorizado no ambiente de trabalho.",
+      "health": "Baixa imunidade decorrente de preocupações materiais, cansaço físico e necessidade de buscar apoio.",
+      "relationships": "Fase em que as dificuldades financeiras testam a resistência do casal, ou sentimento de solidão mesmo acompanhado."
+    },
+    "reversedMeanings": {
+      "general": "Recuperação financeira progressiva, fim de uma fase difícil, recebimento de ajuda e renovação das esperanças.",
+      "career": "Retorno ao mercado de trabalho, quitação de dívidas antigas e surgimento de novas fontes de renda.",
+      "health": "Melhora gradual de condições físicas debilitadas e reabilitação bem-sucedida após exaustão.",
+      "relationships": "Superação de uma crise conjunta, fortalecimento do laço após tempos difíceis ou abertura para novos apoios."
+    }
+  },
+  {
+    "id": 41,
+    "name": "Seis de Ouros",
+    "image": "assets/cards/pentacles/six.jpg",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "meanings": {
+      "general": "Generosidade, partilha justa de recursos, caridade, reciprocidade financeira e equilíbrio entre dar e receber.",
+      "career": "Recebimento de bônus justos, patrocínios para projetos ou ajuda valiosa de um mentor experiente.",
+      "health": "Disponibilidade de recursos para cuidar da saúde e equilíbrio nas energias físicas gastas e recuperadas.",
+      "relationships": "Relação equilibrada e recíproca, onde ambos se apoiam financeiramente e emocionalmente de forma justa."
+    },
+    "reversedMeanings": {
+      "general": "Generosidade com segundas intenções, subordinação humilhante, distribuição injusta de recursos ou dívidas.",
+      "career": "Salários desproporcionais ao esforço, promessas de promoção que nunca chegam ou relações de poder abusivas.",
+      "health": "Gasto excessivo de energia com os outros esquecendo de si mesmo, gerando desgaste físico.",
+      "relationships": "Relação desigual onde um doa muito mais do que o outro, gerando cobranças silenciosas ou dependência financeira."
+    }
+  },
+  {
+    "id": 42,
+    "name": "Sete de Ouros",
+    "image": "assets/cards/pentacles/seven.jpg",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "meanings": {
+      "general": "Paciência, avaliação de resultados, colheita a longo prazo e a compreensão de que as coisas boas levam tempo para crescer.",
+      "career": "Momento de pausar para avaliar o progresso de um negócio ou carreira, preparando-se para colher os frutos do esforço.",
+      "health": "Resultados positivos de exames ou dietas aparecendo de forma gradual e sustentável com o tempo.",
+      "relationships": "Relacionamento amadurecendo aos poucos, onde o investimento mútuo diário começa a mostrar solidez."
+    },
+    "reversedMeanings": {
+      "general": "Impaciência com o ritmo das coisas, frustração por falta de resultados imediatos ou esforço desperdiçado em solo infértil.",
+      "career": "Abandono de projetos antes da hora por falta de persistência, ou investimentos ruins que não darão retorno.",
+      "health": "Desistência de tratamentos na metade por não ver melhoras imediatas, voltando a hábitos nocivos.",
+      "relationships": "Sensação de que o esforço para manter a relação não está valendo a pena, gerando desânimo e pressa por definições."
+    }
+  },
+  {
+    "id": 43,
+    "name": "Oito de Ouros",
+    "image": "assets/cards/pentacles/eight.jpg",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "meanings": {
+      "general": "Dedicação total, dedicação aos detalhes, artesanato, foco no trabalho diário e o desenvolvimento constante de maestria técnica.",
+      "career": "Fase de grande produtividade, aprendizado prático minucioso, foco em entregar o melhor trabalho e especializações.",
+      "health": "Disciplina impecável com rotinas de exercícios, alimentação regrada e consistência nos hábitos de saúde.",
+      "relationships": "Esforço consciente e diário para fazer o relacionamento funcionar, prestando atenção nos pequenos detalhes afetivos."
+    },
+    "reversedMeanings": {
+      "general": "Falta de capricho, tédio com a rotina de trabalho, perfeccionismo excessivo paralisante ou falta de ambição.",
+      "career": "Trabalho executado de má vontade, falta de atenção aos detalhes gerando erros crônicos ou exploração profissional.",
+      "health": "Falta de constância na rotina de autocuidado, oscilando entre a rigidez excessiva e o desleixo total.",
+      "relationships": "A rotina mecânica engolindo o romance, falta de esforço real para manter o interesse mútuo aceso."
+    }
+  },
+  {
+    "id": 44,
+    "name": "Nove de Ouros",
+    "image": "assets/cards/pentacles/nine.jpg",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "meanings": {
+      "general": "Independência financeira, autossuficiência, refinamento, colheita de luxos merecidos e orgulho do próprio sucesso material.",
+      "career": "Estabilidade profissional consolidada, liberdade para tomar decisões executivas e colheita de ótimos rendimentos financeiros.",
+      "health": "Excelente forma física, vitalidade em alta e prazer em investir em tratamentos estéticos e bem-estar de ponta.",
+      "relationships": "Fase de grande satisfação pessoal, excelente para quem está solteiro e confortável, ou um namoro que respeita muito a individualidade."
+    },
+    "reversedMeanings": {
+      "general": "Dependência financeira de terceiros, ostentação vazia, superficialidade ou sensação de vazio interno apesar do conforto.",
+      "career": "Gastos maiores do que a renda real para manter aparências, ou investimentos arriscados por pura vaidade.",
+      "health": "Descuido com a saúde em troca de caprichos estéticos imediatos ou excessos por pura indulgência.",
+      "relationships": "Medo de perder a independência impedindo a entrega no amor, ou dinâmicas financeiras gerando desconfiança."
+    }
+  },
+  {
+    "id": 45,
+    "name": "Dez de Ouros",
+    "image": "assets/cards/pentacles/ten.jpg",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "meanings": {
+      "general": "Riqueza duradoura, legado familiar, segurança geracional, estabilidade material absoluta e a consolidação de conquistas a longo prazo.",
+      "career": "Construção de um patrimônio sólido, estabilidade corporativa máxima (como cargos vitalícios ou heranças de negócios) e sucesso financeiro.",
+      "health": "Excelente constituição física geral, longevidade protegida e boa saúde herdada geneticamente.",
+      "relationships": "União familiar estruturada, planos sólidos de aquisição de bens em comum (comprar casa) e casamento estável."
+    },
+    "reversedMeanings": {
+      "general": "Disputas por herança, perdas financeiras familiares, quebra de tradições ou instabilidade material na base familiar.",
+      "career": "Ameaça à estabilidade financeira por má gestão a longo prazo, ou faturamentos que despencam inesperadamente.",
+      "health": "Preocupações com predisposições genéticas de saúde não cuidadas de forma preventiva.",
+      "relationships": "Conflitos sérios com parentes por motivos financeiros, ou um casamento mantido apenas por conveniência material."
+    }
+  },
+  {
+    "id": 46,
+    "name": "Valete de Ouros",
+    "image": "assets/cards/pentacles/page.jpg",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "meanings": {
+      "general": "Novas propostas práticas, desejo de aprender, ambição realista, foco em novos estudos e o início de projetos tangíveis.",
+      "career": "Início de um novo curso técnico, propostas de estágio promissoras ou ideias iniciais para ganhar dinheiro extra.",
+      "health": "Adoção de uma nova rotina saudável com pés no chão, focando na disciplina de exames básicos e metas reais.",
+      "relationships": "Início de uma relação promissora e séria, ou planos iniciais de estabilidade financeira feitos a dois."
+    },
+    "reversedMeanings": {
+      "general": "Falta de foco nos estudos, preguiça, metas irrealistas sem execução prática ou desperdício de pequenas quantias de dinheiro.",
+      "career": "Projetos profissionais que não saem do papel por falta de esforço individual, ou atrasos em respostas de emprego.",
+      "health": "Adiar exames médicos por pura procrastinação, preguiça de manter uma rotina de exercícios básicos.",
+      "relationships": "Falta de maturidade para lidar com a realidade prática da vida a dois, ou desinteresse em construir algo sólido."
+    }
+  },
+  {
+    "id": 47,
+    "name": "Cavaleiro de Ouros",
+    "image": "assets/cards/pentacles/knight.jpg",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "meanings": {
+      "general": "Trabalho árduo, confiabilidade, rotina eficiente, progresso lento mas extremamente seguro e forte senso de responsabilidade.",
+      "career": "Funcionário exemplar e incansável, execução perfeita de tarefas rotineiras e estabilidade conquistada pela constância.",
+      "health": "Resistência física exemplar, hábitos diários muito saudáveis mantidos com facilidade através da disciplina rígida.",
+      "relationships": "Parceiro extremamente confiável e protetor, relacionamento estável, previsível e focado na segurança mútua."
+    },
+    "reversedMeanings": {
+      "general": "Teimosia cega, tédio crônico com a rotina, estagnação por medo de mudar ou obsessão pelo trabalho.",
+      "career": "Ficar preso a métodos de trabalho obsoletos por pura rigidez mental, ou esgotamento por excesso de horas trabalhadas.",
+      "health": "Rigidez excessiva com dietas a ponto de se tornar prejudicial, ou preguiça total de sair da inércia física.",
+      "relationships": "Relacionamento que caiu num tédio profundo e monótono, falta de espontaneidade ou frieza na dinâmica cotidiana."
+    }
+  },
+  {
+    "id": 48,
+    "name": "Rainha de Ouros",
+    "image": "assets/cards/pentacles/queen.jpg",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "meanings": {
+      "general": "Pragmatismo acolhedor, fartura doméstica, inteligência financeira, generosidade prática e capacidade de nutrir e organizar o ambiente.",
+      "career": "Excelente gestora de recursos e pessoas, capacidade de tornar qualquer negócio lucrativo e estabilidade financeira invejável.",
+      "health": "Ótima saúde baseada em boa alimentação, conexão com o bem-estar natural e rituais constantes de autocuidado.",
+      "relationships": "Parceira dedicada, madura e realista, que cuida do bem-estar do lar e oferece apoio material e emocional seguro."
+    },
+    "reversedMeanings": {
+      "general": "Desorganização doméstica ou financeira, desequilíbrio entre trabalho e vida pessoal, vaidade ou ciúme por status material.",
+      "career": "Sobrecarga de tarefas por não saber delegar, má gestão financeira pessoal ou inveja no ambiente de trabalho.",
+      "health": "Descuido com a nutrição básica do corpo por pressa do cotidiano, gerando problemas digestivos ou de peso.",
+      "relationships": "Cobranças excessivas sobre o status financeiro do parceiro, ou tentativa de controlar o relacionamento através do dinheiro."
+    }
+  },
+  {
+    "id": 49,
+    "name": "Rei de Ouros",
+    "image": "assets/cards/pentacles/king.jpg",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "meanings": {
+      "general": "Sucesso material máximo, maestria nos negócios, estabilidade incontestável, autoridade realista e o poder de concretizar grandes ambições.",
+      "career": "Líder de negócios consolidado, excelente faro para investimentos, segurança financeira absoluta e autoridade máxima em sua área.",
+      "health": "Corpo forte, saúde estável e a disciplina necessária para usufruir dos prazeres materiais com o devido equilíbrio físico.",
+      "relationships": "Parceiro protetor, provedor e maduro; relacionamento sólido, seguro e com forte planejamento de patrimônio conjunto."
+    },
+    "reversedMeanings": {
+      "general": "Materialismo grosseiro, ganância cega, corrupção, tirania nos negócios ou perda severa de controle financeiro.",
+      "career": "Chefe autoritário focado apenas em lucros a qualquer custo, péssimas decisões de investimentos ou falência por orgulho.",
+      "health": "Problemas de saúde decorrentes de excessos materiais de luxo (comida pesada, bebidas) ou sedentarismo crônico.",
+      "relationships": "Parceiro controlador que usa o poder financeiro para submeter o outro, ou frieza extrema focada apenas em bens materiais."
+    }
+  }
 ]
