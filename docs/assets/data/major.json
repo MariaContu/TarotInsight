@@ -1,0 +1,398 @@
+[
+  {
+    "id": 0,
+    "name": "O Louco",
+    "image": "assets/cards/major/fool.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Novos começos, liberdade, espontaneidade e a coragem de dar um salto de fé em direção ao desconhecido.",
+      "career": "Nova oportunidade, mudança de rumo ou o início de um projeto ousado e inovador.",
+      "health": "Energia renovada, vitalidade e uma sensação de leveza que reflete no bem-estar físico.",
+      "relationships": "Relacionamento leve e despreocupado, baseado na liberdade individual e na diversão conjunta."
+    },
+    "reversedMeanings": {
+      "general": "Imprudência, falta de direção, agir por impulso sem medir as consequências dos atos.",
+      "career": "Decisões impulsivas, riscos desnecessários ou falta de planejamento a longo prazo.",
+      "health": "Negligência com o próprio corpo, cansaço por excessos ou comportamentos de risco.",
+      "relationships": "Instabilidade emocional, falta de compromisso ou medo de criar laços reais."
+    }
+  },
+  {
+    "id": 1,
+    "name": "O Mago",
+    "image": "assets/cards/major/magician.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Habilidade, poder de ação, manifestação de desejos e foco para transformar ideias em realidade.",
+      "career": "Capacidade de liderança, domínio de ferramentas técnicas e facilidade para convencer e vender projetos.",
+      "health": "Boa vitalidade, forte poder de recuperação e excelente coordenação e reflexos.",
+      "relationships": "Iniciativa para conquistar, boa comunicação e magnetismo pessoal em alta."
+    },
+    "reversedMeanings": {
+      "general": "Manipulação, ilusão, potencial desperdiçado ou uso da inteligência para fins enganosos.",
+      "career": "Uso errado de habilidades, trapaças, falta de foco ou projetos que não saem do papel.",
+      "health": "Baixa energia, cansaço mental crônico ou pequenos acidentes por falta de atenção.",
+      "relationships": "Falta de sinceridade, jogos mentais, promessas vazias ou egocentrismo excessivo."
+    }
+  },
+  {
+    "id": 2,
+    "name": "A Sacerdotisa",
+    "image": "assets/cards/major/priestess.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Intuição aguçada, mistério, sabedoria interior e a necessidade de confiar nas suas percepções sutis.",
+      "career": "Observe antes de agir, use a estratégia dos bastidores e confie no timing certo das coisas.",
+      "health": "Equilíbrio emocional, boa saúde psicossomática e a importância de ouvir os sinais do corpo.",
+      "relationships": "Conexão profunda e espiritual, mas que se desenvolve de forma discreta e sem pressa."
+    },
+    "reversedMeanings": {
+      "general": "Confusão interna, intuição bloqueada, segredos prejudiciais vindo à tona ou superficialidade.",
+      "career": "Falta de clareza nas metas, fofocas no ambiente de trabalho ou ignorar conselhos prudentes.",
+      "health": "Ansiedade, oscilações de humor causadas por estresse ou problemas hormonais negligenciados.",
+      "relationships": "Distanciamento frio, falta de comunicação essencial ou segredos que geram desconfiança."
+    }
+  },
+  {
+    "id": 3,
+    "name": "A Imperatriz",
+    "image": "assets/cards/major/empress.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Abundância, criatividade em expansão, fertilidade, conexão com a natureza e prazer de viver.",
+      "career": "Crescimento profissional, projetos frutíferos, colheita de lucros e ótimas parcerias.",
+      "health": "Boa saúde geral, energia radiante, fertilidade em alta e momentos de autocuidado benéficos.",
+      "relationships": "Amor, afeto sincero, cuidado mútuo e a possibilidade de consolidação ou expansão da família."
+    },
+    "reversedMeanings": {
+      "general": "Bloqueio criativo, desperdício de recursos, vaidade excessiva ou sentimentos de escassez.",
+      "career": "Estagnação, falta de progresso nos negócios por má gestão ou desmotivação criativa.",
+      "health": "Descuido com a alimentação, problemas de circulação ou esgotamento físico por tentar cuidar de todos.",
+      "relationships": "Dependência emocional, sufocamento do parceiro por excesso de controle ou ciúme exagerado."
+    }
+  },
+  {
+    "id": 4,
+    "name": "O Imperador",
+    "image": "assets/cards/major/emperor.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Controle, estrutura, autoridade legítima, estabilidade material e forte senso de dever.",
+      "career": "Liderança consolidada, estabelecimento de regras claras, promoções e organização financeira rígida.",
+      "health": "Estabilidade física, corpo resistente e disciplina para manter rotinas saudáveis e exames em dia.",
+      "relationships": "Segurança, compromisso sério, proteção e um relacionamento baseado no respeito e apoio mútuo."
+    },
+    "reversedMeanings": {
+      "general": "Rigidez mental, tirania, perda de controle sobre as situações ou fraqueza diante de crises.",
+      "career": "Autoritarismo na liderança, conflitos com chefes, abuso de poder ou desorganização total.",
+      "health": "Tensão muscular crônica, dores de cabeça por estresse e resistência a procurar ajuda médica.",
+      "relationships": "Controle excessivo, frieza, teimosia que impede o diálogo e dinâmicas abusivas de poder."
+    }
+  },
+  {
+    "id": 5,
+    "name": "O Hierofante",
+    "image": "assets/cards/major/hierophant.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Tradição, sabedoria compartilhada, ensinamentos, busca por significado espiritual e conformidade social.",
+      "career": "Trabalho em instituições consolidadas, mentoria, respeito a hierarquias ou necessidade de estudo.",
+      "health": "Abordagens tradicionais de cura, equilíbrio entre mente e corpo através da disciplina.",
+      "relationships": "Casamento, compromisso tradicional, valores compartilhados e estabilidade afetiva."
+    },
+    "reversedMeanings": {
+      "general": "Rebeldia, dogmatismo, quebra de regras sociais ou questionamento de crenças antigas.",
+      "career": "Métodos não convencionais, insatisfação com a burocracia ou conflitos com a liderança.",
+      "health": "Necessidade de buscar segundas opiniões ou testar terapias alternativas complementares.",
+      "relationships": "Reavaliação de contratos afetivos, divergência de valores ou sentimentos de restrição."
+    }
+  },
+  {
+    "id": 6,
+    "name": "Os Enamorados",
+    "image": "assets/cards/major/lovers.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Escolhas importantes, alinhamento de valores, harmonia nas relações e decisões do coração.",
+      "career": "Parcerias de negócios promissoras, contratos vantajosos ou a necessidade de decidir entre dois caminhos.",
+      "health": "Equilíbrio vital, boa sintonia entre as necessidades físicas e o descanso.",
+      "relationships": "Amor recíproco, forte atração, cumplicidade e sintonia profunda com o parceiro."
+    },
+    "reversedMeanings": {
+      "general": "Dilemas difíceis, desalinhamento interno, más escolhas ou falta de harmonia.",
+      "career": "Desentendimentos com sócios, decisões tomadas por pressão externa ou caminhos profissionais confusos.",
+      "health": "Desequilíbrio gerado por conflitos emocionais não resolvidos ou negligência por indecisão.",
+      "relationships": "Falta de sintonia, dúvidas sobre o futuro da relação, desconfiança ou traição."
+    }
+  },
+  {
+    "id": 7,
+    "name": "O Carro",
+    "image": "assets/cards/major/chariot.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Vitória, determinação, foco, superação de obstáculos através do autocontrole e força de vontade.",
+      "career": "Progresso rápido, conquistas por mérito próprio, viagens a trabalho e liderança firme.",
+      "health": "Grande força física, recuperação rápida de enfermidades e energia em expansão.",
+      "relationships": "Superação de crises juntos, conquista amorosa ou direcionamento claro sobre o futuro do casal."
+    },
+    "reversedMeanings": {
+      "general": "Perda de controle, falta de rumo, obstáculos intransponíveis momentâneos ou agressividade.",
+      "career": "Projetos que perdem o ritmo, falta de foco nas metas ou ambição desmedida que prejudica os planos.",
+      "health": "Esgotamento físico, estresse por excesso de velocidade na rotina ou risco de pequenas lesões.",
+      "relationships": "Brigas por poder, rumos divergentes entre o casal ou impulsividade que desgasta o afeto."
+    }
+  },
+  {
+    "id": 8,
+    "name": "A Força",
+    "image": "assets/cards/major/strength.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Coragem interior, paciência, compaixão e o domínio dos instintos primitivos através da suavidade.",
+      "career": "Resiliência diante de pressões, diplomacia para resolver conflitos e autoridade exercida com respeito.",
+      "health": "Vitalidade duradoura, excelente capacidade de autocura e fortalecimento do sistema imunológico.",
+      "relationships": "Amor maduro, capacidade de perdoar, paixão equilibrada pelo afeto e paciência mútua."
+    },
+    "reversedMeanings": {
+      "general": "Fraqueza, falta de controle emocional, insegurança ou explosões de raiva desnecessárias.",
+      "career": "Intimidação no ambiente de trabalho, falta de confiança para assumir riscos ou agir por puro impulso.",
+      "health": "Baixa imunidade, cansaço físico extremo ou dificuldade para controlar vícios e impulsos.",
+      "relationships": "Ciúme possessivo, discussões acaloradas, falta de tato ou insegurança crônica desestabilizadora."
+    }
+  },
+  {
+    "id": 9,
+    "name": "O Eremita",
+    "image": "assets/cards/major/hermit.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Introspecção, busca pela verdade, isolamento voluntário para reflexão e sabedoria adquirida com o tempo.",
+      "career": "Fase de planejamento discreto, necessidade de especialização ou busca por maior propósito no que faz.",
+      "health": "Necessidade de desacelerar, cuidar da saúde mental e focar na longevidade e hábitos preventivos.",
+      "relationships": "Momento de solitude para autoconhecimento ou um relacionamento discreto, focado na maturidade."
+    },
+    "reversedMeanings": {
+      "general": "Isolamento excessivo, solidão amarga, recusa em aceitar conselhos ou paranóia.",
+      "career": "Falta de trabalho em equipe, atrasos em projetos por preciosismo ou teimosia em aceitar novas ideias.",
+      "health": "Problemas crônicos negligenciados, depressão, desânimo ou falta de energia vital.",
+      "relationships": "Distanciamento frio do parceiro, solidão a dois ou recusa crônica em se abrir para o amor."
+    }
+  },
+  {
+    "id": 10,
+    "name": "A Roda da Fortuna",
+    "image": "assets/cards/major/wheel_of_fortune.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Mudanças inevitáveis, ciclos de vida, destino, reviravoltas e a compreensão de que tudo passa.",
+      "career": "Oportunidades inesperadas, mudanças positivas de cargo ou sorte em investimentos financeiros.",
+      "health": "Fase de melhora e renovação celular, mas exige atenção aos altos e baixos da rotina.",
+      "relationships": "Novos encontros marcados pelo destino ou mudanças dinâmicas que renovam os laços atuais."
+    },
+    "reversedMeanings": {
+      "general": "Má sorte temporária, resistência a mudanças necessárias, quebra de expectativas ou instabilidade.",
+      "career": "Instabilidade financeira, imprevistos em contratos ou necessidade de se adaptar a cortes e reestruturações.",
+      "health": "Desequilíbrios hormonais cíclicos, recaídas de problemas antigos ou indisposição geral.",
+      "relationships": "Fase de instabilidade, repetição de padrões negativos do passado ou fatores externos atrapalhando o casal."
+    }
+  },
+  {
+    "id": 11,
+    "name": "A Justiça",
+    "image": "assets/cards/major/justice.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Justiça, verdade, causa e efeito, integridade e a necessidade de tomar decisões com base na razão.",
+      "career": "Resolução de disputas legais, contratos assinados com clareza e reconhecimento merecido por seu esforço.",
+      "health": "Equilíbrio geral do organismo e a importância de exames de rotina para manter a estabilidade.",
+      "relationships": "Relação equilibrada, clara, honesta e pautada no respeito aos limites de cada indivíduo."
+    },
+    "reversedMeanings": {
+      "general": "Injustiça, falta de responsabilidade pelos próprios atos, preconceito ou complicações legais.",
+      "career": "Injustiças no trabalho, fofocas corporativas, contratos maliciosos ou prejuízos por falta de ética.",
+      "health": "Desequilíbrio decorrente de excessos cometidos contra o próprio corpo ou tratamentos inadequados.",
+      "relationships": "Falta de reciprocidade, cobranças desproporcionais, desonestidade ou discussões frias."
+    }
+  },
+  {
+    "id": 12,
+    "name": "O Pendurado",
+    "image": "assets/cards/major/hanged_man.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Sacrifício voluntário, pausa necessária, nova perspectiva e a sabedoria de saber abrir mão do controle.",
+      "career": "Fase de estagnação temporária que exige paciência, reavaliação de metas e sacrifícios estratégicos.",
+      "health": "Necessidade de repouso absoluto, desaceleração forçada e atenção redobrada ao esgotamento físico.",
+      "relationships": "Relacionamento que exige paciência, concessões mútuas ou momento de olhar a dinâmica sob outro ângulo."
+    },
+    "reversedMeanings": {
+      "general": "Resistência inútil, vitimismo, estagnação prolongada por medo ou sacrifícios sem propósito real.",
+      "career": "Insatisfação profissional crônica sem ação para mudar, esforço desperdiçado ou teimosia cega.",
+      "health": "Falta de energia extrema por não saber descansar ou recusa em aceitar tratamentos de saúde.",
+      "relationships": "Padrão de submissão prejudicial, dependência, sensação de estar preso a alguém sem futuro."
+    }
+  },
+  {
+    "id": 13,
+    "name": "A Morte",
+    "image": "assets/cards/major/death.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Fim de um ciclo, transformação profunda, transição necessária e o desapego do que não serve mais.",
+      "career": "Mudança radical de profissão, encerramento de um projeto antigo e abertura para novas carreiras.",
+      "health": "Eliminação de toxinas, superação de hábitos nocivos e regeneração completa do corpo.",
+      "relationships": "Término definitivo de um vínculo desgastado ou transformação profunda na forma como o casal se relaciona."
+    },
+    "reversedMeanings": {
+      "general": "Resistência à mudança, medo do novo, estagnação dolorosa por apego ao passado.",
+      "career": "Insistência em um emprego falido, medo de arriscar novas funções ou bloqueio diante do progresso.",
+      "health": "Cronicidade de problemas físicos por recusa em mudar hábitos alimentares e de estilo de vida.",
+      "relationships": "Relação arrastada por medo da solidão, incapacidade de perdoar o passado ou términos idas e vindas."
+    }
+  },
+  {
+    "id": 14,
+    "name": "A Temperança",
+    "image": "assets/cards/major/temperance.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Equilíbrio, moderação, paciência, harmonia e a alquimia interna de conciliar opostos com serenidade.",
+      "career": "Ambiente profissional harmonioso, conciliação de interesses, estabilidade e progresso contínuo e calmo.",
+      "health": "Excelente saúde, autocontrole sobre os hábitos, cura gradual e equilíbrio de fluidos corporais.",
+      "relationships": "Convivência harmoniosa, paz no cotidiano, amizade profunda no amor e paciência mútua."
+    },
+    "reversedMeanings": {
+      "general": "Desequilíbrio, excessos, impaciência, falta de moderação e conflitos internos constantes.",
+      "career": "Falta de foco, estresse por má gestão do tempo, conflitos de equipe ou gastos impulsivos.",
+      "health": "Excessos alimentares, flutuações bruscas de energia e problemas nos rins ou circulação.",
+      "relationships": "Falta de sintonia e paciência, discussões bobas constantes ou incompatibilidade de ritmos de vida."
+    }
+  },
+  {
+    "id": 15,
+    "name": "O Diabo",
+    "image": "assets/cards/major/devil.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Apego material, paixões intensas, vícios, tentação e o confronto com a nossa própria sombra interna.",
+      "career": "Ambição em alta, forte magnetismo para vendas, faturamento financeiro expressivo, mas exige cuidado com a ética.",
+      "health": "Grande energia física e sexual, mas com tendência a excessos perigosos na alimentação ou prazeres.",
+      "relationships": "Atração física avassaladora, magnetismo sexual forte, mas com potencial para possessividade."
+    },
+    "reversedMeanings": {
+      "general": "Libertação de amarras, superação de vícios, consciência dos próprios erros e desapego material.",
+      "career": "Saída de um ambiente de trabalho tóxico, corte de ambições cegas ou renegociação de dívidas.",
+      "health": "Início de desintoxicação física bem-sucedida e quebra de hábitos compulsivos prejudiciais.",
+      "relationships": "Fim de um relacionamento abusivo ou superação de dinâmicas de ciúme excessivo no casal."
+    }
+  },
+  {
+    "id": 16,
+    "name": "A Torre",
+    "image": "assets/cards/major/tower.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Destruição de ilusões, mudanças repentinas e inevitáveis, quebra de estruturas falsas e revelação da verdade.",
+      "career": "Demissão inesperada, encerramento abrupto de contratos ou colapso de um plano mal estruturado.",
+      "health": "Avisos súbitos do corpo, necessidade de intervenção rápida ou acidentes causados por pressa.",
+      "relationships": "Ruptura repentina, brigas que revelam verdades ocultas ou queda de expectativas irrealistas sobre o parceiro."
+    },
+    "reversedMeanings": {
+      "general": "Evitar um desastre por pouco, resistência à reconstrução necessária ou crise que se arrasta lentamente.",
+      "career": "Manter-se em um emprego instável por medo, adiar falências óbvias ou reconstrução lenta após perdas.",
+      "health": "Recuperação lenta de um choque físico, estresse acumulado que ameaça explodir a qualquer momento.",
+      "relationships": "Relação que vive à beira do colapso constante sem se resolver, ou reconciliação forçada e frágil."
+    }
+  },
+  {
+    "id": 17,
+    "name": "A Estrela",
+    "image": "assets/cards/major/star.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Esperança, cura, renovação espiritual, inspiração divina, serenidade e a certeza de proteção no caminho.",
+      "career": "Reconhecimento público, surgimento de um propósito real no trabalho e ótimas perspectivas futuras.",
+      "health": "Convalescença bem-sucedida, rejuvenescimento, vitalidade e excelente equilíbrio mental.",
+      "relationships": "Amor puro, renovação das esperanças afetivas, conexão de alma e otimismo em relação ao futuro juntos."
+    },
+    "reversedMeanings": {
+      "general": "Falta de fé, desânimo, pessimismo, expectativas irreais frustradas ou sentimentos de desamparo.",
+      "career": "Falta de oportunidades visíveis por puro desânimo, talentos ignorados ou metas excessivamente idealistas.",
+      "health": "Baixa imunidade decorrente de tristeza, desânimo geral ou descaso com a saúde psicológica.",
+      "relationships": "Desilusão amorosa, insegurança sobre o sentimento do outro ou idealização excessiva que gera frustração."
+    }
+  },
+  {
+    "id": 18,
+    "name": "A Lua",
+    "image": "assets/cards/major/moon.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Ilusão, medos subconscientes, intuição aguçada, sonhos intensos e a necessidade de enxergar além das aparências.",
+      "career": "Instabilidade no ambiente profissional, mal-entendidos com colegas ou projetos envoltos em incertezas.",
+      "health": "Flutuações emocionais, distúrbios do sono, ansiedade e a necessidade de cuidar da saúde psicológica.",
+      "relationships": "Inseguranças profundas, ciúme infundado, fantasias românticas excessivas ou segredos não revelados."
+    },
+    "reversedMeanings": {
+      "general": "Verdade vindo à tona, superação de medos irracionais, clareza mental e fim de ilusões dolorosas.",
+      "career": "Desmascaramento de intrigas corporativas, clareza sobre propostas duvidosas e resolução de mistérios.",
+      "health": "Melhora de quadros de ansiedade ou depressão, estabilização do sono e diagnóstico correto de sintomas.",
+      "relationships": "Esclarecimento de mal-entendidos, revelação de mentiras ou fim de projeções irreais sobre o par."
+    }
+  },
+  {
+    "id": 19,
+    "name": "O Sol",
+    "image": "assets/cards/major/sun.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Sucesso, clareza absoluta, vitalidade transbordante, alegria de viver, verdade e autorrealização.",
+      "career": "Sucesso absoluto em projetos, liderança inspiradora, lucros financeiros e reconhecimento profissional máximo.",
+      "health": "Saúde perfeita, energia física radiante, disposição e excelente recuperação de qualquer mal estar.",
+      "relationships": "Relação feliz, clara, transparente, cheia de vitalidade, paixão legítima e cumplicidade total."
+    },
+    "reversedMeanings": {
+      "general": "Sucesso adiado, arrogância, egocentrismo, necessidade crônica de atenção ou otimismo ingênuo.",
+      "career": "Orgulho que atrapalha parcerias, conquistas menores que o esperado ou falta de clareza nas ações.",
+      "health": "Queimaduras, insolação, cansaço por excesso de atividades ou problemas de pressão arterial.",
+      "relationships": "Falta de brilho no relacionamento por rotina desgastante ou conflitos causados pelo ego de um dos parceiros."
+    }
+  },
+  {
+    "id": 20,
+    "name": "O Julgamento",
+    "image": "assets/cards/major/judgement.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Despertar, chamado interior, absolvição do passado, transformação cármica e grandes tomadas de consciência.",
+      "career": "Mudança importante de rumo, promoção merecida, novos horizontes e colheita de esforços passados.",
+      "health": "Renovação das forças físicas, cura de problemas crônicos e um verdadeiro renascimento corporal.",
+      "relationships": "Reconciliação sincera, superação definitiva de mágoas passadas ou tomada de decisão crucial sobre o casal."
+    },
+    "reversedMeanings": {
+      "general": "Recusa em ouvir o chamado da vida, negação da realidade, apego a erros passados ou autocrítica severa.",
+      "career": "Perda de oportunidades por medo de arriscar, estagnação por arrependimento ou repetição de erros profissionais.",
+      "health": "Demora na recuperação de enfermidades por falta de otimismo ou negligência com os sinais de alerta.",
+      "relationships": "Cobranças repetitivas de erros antigos, incapacidade de perdoar ou recusa em encerrar ciclos falidos."
+    }
+  },
+  {
+    "id": 21,
+    "name": "O Mundo",
+    "image": "assets/cards/major/world.jpg",
+    "arcana": "major",
+    "meanings": {
+      "general": "Conclusão bem-sucedida, plenitude, realização de metas, integração total, sucesso e o fechamento perfeito de um ciclo.",
+      "career": "Alcançar o topo da carreira desejada, estabilidade financeira absoluta, expansão global ou viagens internacionais.",
+      "health": "Equilíbrio integral entre mente, corpo e espírito, refletindo em excelente forma física e bem-estar.",
+      "relationships": "Relacionamento pleno, realização de sonhos em comum (como casamento ou morar juntos) e felicidade estável."
+    },
+    "reversedMeanings": {
+      "general": "Ciclos inacabados, falta de encerramento, frustração por metas quase alcançadas ou estagnação final.",
+      "career": "Projetos travados na reta final, sensação de falta de reconhecimento ou dificuldades com comércio exterior.",
+      "health": "Pequenos problemas de circulação ou sensação de cansaço por não conseguir relaxar e celebrar as conquistas.",
+      "relationships": "Falta de fechamento com ex-parceiros atrapalhando o presente, ou sensação de que a relação atual não evolui."
+    }
+  }
+]
