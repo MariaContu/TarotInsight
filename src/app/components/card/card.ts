@@ -9,6 +9,7 @@ import { Card } from '../../models/card.model';
 })
 export class CardComponent implements OnChanges {
   @Input() card!: Card;
+  @Input() activeReading: 'general' | 'career' | 'health' | 'relationships' = 'general';
 
   isInverted = false;
 
@@ -22,5 +23,15 @@ export class CardComponent implements OnChanges {
 
   getMeanings() {
     return this.isInverted ? this.card.reversedMeanings : this.card.meanings;
+  }
+
+  getReadingLabel(): string {
+    const labels = {
+      general: 'Geral',
+      career: 'Carreira',
+      health: 'Saúde',
+      relationships: 'Relacionamentos',
+    };
+    return labels[this.activeReading];
   }
 }

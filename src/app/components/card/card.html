@@ -1,31 +1,59 @@
 <div class="card-wrapper">
-  <div class="image" [class.inverted]="isInverted" (click)="toggleInvert()">
-    <img [src]="card.image" [alt]="card.name" />
+
+  <div class="image-section">
+    <div class="image" [class.inverted]="isInverted" (click)="toggleInvert()">
+      <img [src]="card.image" [alt]="card.name" />
+    </div>
+    <span class="hint">Clique para inverter</span>
+    @if (isInverted) {
+      <span class="inverted-badge">Invertida</span>
+    }
   </div>
 
-  <div class="info">
-    <small class="hint">Clique para inverter</small>
+  <div class="info" [class.inverted-info]="isInverted">
 
-    <h3>{{ card.name }}</h3>
-
-    <div class="meaning">
-      <strong>Geral:</strong>
-      <p>{{ getMeanings().general }}</p>
+    <div class="card-header">
+      <h3 class="card-title">{{ card.name }}</h3>
+      <span class="arcana-badge">
+        {{ card.arcana === 'major' ? 'Arcano Maior' : card.suit }}
+      </span>
     </div>
 
-    <div class="meaning">
-      <strong>Carreira:</strong>
-      <p>{{ getMeanings().career }}</p>
+    <div class="reading-tabs">
+      <div class="meaning-block">
+        <span class="reading-label">{{ getReadingLabel() }}</span>
+        <p class="reading-text">{{ getMeanings()[activeReading] }}</p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="all-meanings">
+        @if (activeReading !== 'general') {
+          <div class="meaning">
+            <strong>Geral</strong>
+            <p>{{ getMeanings().general }}</p>
+          </div>
+        }
+        @if (activeReading !== 'career') {
+          <div class="meaning">
+            <strong>Carreira</strong>
+            <p>{{ getMeanings().career }}</p>
+          </div>
+        }
+        @if (activeReading !== 'health') {
+          <div class="meaning">
+            <strong>Saúde</strong>
+            <p>{{ getMeanings().health }}</p>
+          </div>
+        }
+        @if (activeReading !== 'relationships') {
+          <div class="meaning">
+            <strong>Relacionamentos</strong>
+            <p>{{ getMeanings().relationships }}</p>
+          </div>
+        }
+      </div>
     </div>
 
-    <div class="meaning">
-      <strong>Saúde:</strong>
-      <p>{{ getMeanings().health }}</p>
-    </div>
-
-    <div class="meaning">
-      <strong>Relacionamentos:</strong>
-      <p>{{ getMeanings().relationships }}</p>
-    </div>
   </div>
 </div>
