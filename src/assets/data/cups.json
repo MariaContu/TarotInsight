@@ -4,6 +4,7 @@
     "name": "Ás de Copas",
     "image": "assets/cards/cups/ace.jpg",
     "arcana": "minor",
+    "suit": "cups",
     "meanings": {
       "general": "Início de um ciclo emocional, transbordamento de sentimentos, intuição pura e novas conexões afetivas.",
       "career": "Novo projeto apaixonante, ambiente de trabalho harmonioso ou descoberta de uma verdadeira vocação.",
@@ -22,6 +23,7 @@
     "name": "Dois de Copas",
     "image": "assets/cards/cups/two.jpg",
     "arcana": "minor",
+    "suit": "cups",
     "meanings": {
       "general": "Parceria, união, reciprocidade, equilíbrio nas relações e forte conexão entre duas forças ou pessoas.",
       "career": "Sociedades de negócios promissoras, contratos selados com facilidade e excelente trabalho em equipe.",
@@ -40,6 +42,7 @@
     "name": "Três de Copas",
     "image": "assets/cards/cups/three.jpg",
     "arcana": "minor",
+    "suit": "cups",
     "meanings": {
       "general": "Celebração, amizade, comunidade, partilha de alegrias e o contentamento de estar entre pessoas queridas.",
       "career": "Sucesso comemorado em equipe, conclusão feliz de um projeto coletivo e ótimo clima corporativo.",
@@ -58,6 +61,7 @@
     "name": "Quatro de Copas",
     "image": "assets/cards/cups/four.jpg",
     "arcana": "minor",
+    "suit": "cups",
     "meanings": {
       "general": "Apatia, tédio, insatisfação com a rotina, introspecção excessiva e o hábito de ignorar novas oportunidades por desinteresse.",
       "career": "Desmotivação crônica com as funções atuais, recusa de novas propostas por medo ou pura estagnação mental.",
@@ -76,6 +80,7 @@
     "name": "Cinco de Copas",
     "image": "assets/cards/cups/five.jpg",
     "arcana": "minor",
+    "suit": "cups",
     "meanings": {
       "general": "Lamentação pelo passado, foco nas perdas, decepção emocional e a dificuldade de enxergar o que ainda resta de positivo.",
       "career": "Frustração com um projeto que falhou, prejuízo financeiro lamentado ou sensação de arrependimento profissional.",
@@ -94,6 +99,7 @@
     "name": "Seis de Copas",
     "image": "assets/cards/cups/six.jpg",
     "arcana": "minor",
+    "suit": "cups",
     "meanings": {
       "general": "Nostalgia saudável, resgate de memórias felizes, inocência, generosidade e a reconexão com as próprias raízes.",
       "career": "Retorno a um antigo emprego ou área de atuação, projetos baseados em ideias antigas e parcerias com conhecidos de longa data.",
@@ -112,6 +118,7 @@
     "name": "Sete de Copas",
     "image": "assets/cards/cups/seven.jpg",
     "arcana": "minor",
+    "suit": "cups",
     "meanings": {
       "general": "Excesso de opções, ilusões, castelos de areia, falta de foco e a necessidade de separar a realidade da fantasia.",
       "career": "Muitas propostas vagas sem concretude, falta de direcionamento nos objetivos ou promessas corporativas falsas.",
@@ -130,6 +137,7 @@
     "name": "Oito de Copas",
     "image": "assets/cards/cups/eight.jpg",
     "arcana": "minor",
+    "suit": "cups",
     "meanings": {
       "general": "Abandono voluntário de uma situação desgastada, busca por maior propósito espiritual e a coragem de virar as costas para o que não preenche mais.",
       "career": "Pedido de demissão por falta de propósito, encerramento voluntário de uma sociedade ou mudança drástica de área.",
@@ -148,6 +156,7 @@
     "name": "Nove de Copas",
     "image": "assets/cards/cups/nine.jpg",
     "arcana": "minor",
+    "suit": "cups",
     "meanings": {
       "general": "Desejo realizado, satisfação pessoal, contentamento, conforto material e uma profunda sensação de bem-estar individual.",
       "career": "Alcançar as metas desejadas, estabilidade financeira confortável e orgulho dos próprios feitos.",
@@ -166,6 +175,7 @@
     "name": "Dez de Copas",
     "image": "assets/cards/cups/ten.jpg",
     "arcana": "minor",
+    "suit": "cups",
     "meanings": {
       "general": "Felicidade plena, harmonia familiar, realização emocional coletiva, paz doméstica e alinhamento de valores com o entorno.",
       "career": "Ambiente de trabalho acolhedor, conquistas compartilhadas e estabilidade a longo prazo que beneficia a família.",
@@ -184,6 +194,7 @@
     "name": "Valete de Copas",
     "image": "assets/cards/cups/page.jpg",
     "arcana": "minor",
+    "suit": "cups",
     "meanings": {
       "general": "Mensagens emocionais inesperadas, sensibilidade artística, intuição jovem, curiosidade afetiva e novos sentimentos surgindo.",
       "career": "Convites para projetos criativos, notícias sobre vagas de estágio/cursos ou necessidade de usar a criatividade inovadora.",
@@ -202,6 +213,7 @@
     "name": "Cavaleiro de Copas",
     "image": "assets/cards/cups/knight.jpg",
     "arcana": "minor",
+    "suit": "cups",
     "meanings": {
       "general": "Propostas românticas, charme, busca pelo ideal idealizado, diplomacia, portador de boas notícias e sensibilidade em movimento.",
       "career": "Oportunidades profissionais trazidas por contatos simpáticos, sucesso em negociações mediadas pela empatia.",
@@ -220,6 +232,7 @@
     "name": "Rainha de Copas",
     "image": "assets/cards/cups/queen.jpg",
     "arcana": "minor",
+    "suit": "cups",
     "meanings": {
       "general": "Empatia profunda, intuição aguçada, acolhimento materno, maturidade emocional, sensibilidade e apoio incondicional.",
       "career": "Liderança acolhedora, profissões ligadas ao cuidado humano ou psicologia, e ambiente de trabalho pacificado.",
@@ -238,6 +251,7 @@
     "name": "Rei de Copas",
     "image": "assets/cards/cups/king.jpg",
     "arcana": "minor",
+    "suit": "cups",
     "meanings": {
       "general": "Controle emocional absoluto, sabedoria, diplomacia, generosidade pacífica, equilíbrio entre a mente racional e o sentimento.",
       "career": "Mentor profissional respeitável, capacidade de gerenciar crises com calma e liderança estável e ética.",

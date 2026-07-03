@@ -4,6 +4,7 @@
     "name": "Ás de Ouros",
     "image": "assets/cards/pentacles/ace.jpg",
     "arcana": "minor",
+    "suit": "pentacles",
     "meanings": {
       "general": "Início de um ciclo de prosperidade, novas oportunidades financeiras, manifestação material e bases sólidas.",
       "career": "Nova proposta de emprego excelente, início de um negócio próprio promissor ou bônus financeiro inesperado.",
@@ -22,6 +23,7 @@
     "name": "Dois de Ouros",
     "image": "assets/cards/pentacles/two.jpg",
     "arcana": "minor",
+    "suit": "pentacles",
     "meanings": {
       "general": "Equilíbrio dinâmico, adaptabilidade diante das mudanças, gestão de múltiplos recursos e flexibilidade no cotidiano.",
       "career": "Conciliação de dois empregos ou projetos, jogo de cintura para lidar com prazos e boa gestão do tempo.",
@@ -40,6 +42,7 @@
     "name": "Três de Ouros",
     "image": "assets/cards/pentacles/three.jpg",
     "arcana": "minor",
+    "suit": "pentacles",
     "meanings": {
       "general": "Trabalho em equipe, reconhecimento profissional, aprimoramento de habilidades, colaboração e metas alcançadas com esforço mútuo.",
       "career": "Sucesso em projetos coletivos, elogios da chefia por competência técnica e consolidação de uma boa reputação.",
@@ -58,6 +61,7 @@
     "name": "Quatro de Ouros",
     "image": "assets/cards/pentacles/four.jpg",
     "arcana": "minor",
+    "suit": "pentacles",
     "meanings": {
       "general": "Estabilidade financeira, conservadorismo, proteção de bens, apego à segurança material e controle rígido de recursos.",
       "career": "Emprego estável e seguro, retenção de lucros corporativos e postura cautelosa antes de dar novos passos.",
@@ -76,6 +80,7 @@
     "name": "Cinco de Ouros",
     "image": "assets/cards/pentacles/five.jpg",
     "arcana": "minor",
+    "suit": "pentacles",
     "meanings": {
       "general": "Fase de escassez temporária, sensação de desamparo, dificuldades financeiras ou isolamento social.",
       "career": "Prejuízos materiais, desemprego temporário ou sensação de não ser valorizado no ambiente de trabalho.",
@@ -94,6 +99,7 @@
     "name": "Seis de Ouros",
     "image": "assets/cards/pentacles/six.jpg",
     "arcana": "minor",
+    "suit": "pentacles",
     "meanings": {
       "general": "Generosidade, partilha justa de recursos, caridade, reciprocidade financeira e equilíbrio entre dar e receber.",
       "career": "Recebimento de bônus justos, patrocínios para projetos ou ajuda valiosa de um mentor experiente.",
@@ -112,6 +118,7 @@
     "name": "Sete de Ouros",
     "image": "assets/cards/pentacles/seven.jpg",
     "arcana": "minor",
+    "suit": "pentacles",
     "meanings": {
       "general": "Paciência, avaliação de resultados, colheita a longo prazo e a compreensão de que as coisas boas levam tempo para crescer.",
       "career": "Momento de pausar para avaliar o progresso de um negócio ou carreira, preparando-se para colher os frutos do esforço.",
@@ -130,6 +137,7 @@
     "name": "Oito de Ouros",
     "image": "assets/cards/pentacles/eight.jpg",
     "arcana": "minor",
+    "suit": "pentacles",
     "meanings": {
       "general": "Dedicação total, dedicação aos detalhes, artesanato, foco no trabalho diário e o desenvolvimento constante de maestria técnica.",
       "career": "Fase de grande produtividade, aprendizado prático minucioso, foco em entregar o melhor trabalho e especializações.",
@@ -148,6 +156,7 @@
     "name": "Nove de Ouros",
     "image": "assets/cards/pentacles/nine.jpg",
     "arcana": "minor",
+    "suit": "pentacles",
     "meanings": {
       "general": "Independência financeira, autossuficiência, refinamento, colheita de luxos merecidos e orgulho do próprio sucesso material.",
       "career": "Estabilidade profissional consolidada, liberdade para tomar decisões executivas e colheita de ótimos rendimentos financeiros.",
@@ -166,6 +175,7 @@
     "name": "Dez de Ouros",
     "image": "assets/cards/pentacles/ten.jpg",
     "arcana": "minor",
+    "suit": "pentacles",
     "meanings": {
       "general": "Riqueza duradoura, legado familiar, segurança geracional, estabilidade material absoluta e a consolidação de conquistas a longo prazo.",
       "career": "Construção de um patrimônio sólido, estabilidade corporativa máxima (como cargos vitalícios ou heranças de negócios) e sucesso financeiro.",
@@ -184,6 +194,7 @@
     "name": "Valete de Ouros",
     "image": "assets/cards/pentacles/page.jpg",
     "arcana": "minor",
+    "suit": "pentacles",
     "meanings": {
       "general": "Novas propostas práticas, desejo de aprender, ambição realista, foco em novos estudos e o início de projetos tangíveis.",
       "career": "Início de um novo curso técnico, propostas de estágio promissoras ou ideias iniciais para ganhar dinheiro extra.",
@@ -202,6 +213,7 @@
     "name": "Cavaleiro de Ouros",
     "image": "assets/cards/pentacles/knight.jpg",
     "arcana": "minor",
+    "suit": "pentacles",
     "meanings": {
       "general": "Trabalho árduo, confiabilidade, rotina eficiente, progresso lento mas extremamente seguro e forte senso de responsabilidade.",
       "career": "Funcionário exemplar e incansável, execução perfeita de tarefas rotineiras e estabilidade conquistada pela constância.",
@@ -220,6 +232,7 @@
     "name": "Rainha de Ouros",
     "image": "assets/cards/pentacles/queen.jpg",
     "arcana": "minor",
+    "suit": "pentacles",
     "meanings": {
       "general": "Pragmatismo acolhedor, fartura doméstica, inteligência financeira, generosidade prática e capacidade de nutrir e organizar o ambiente.",
       "career": "Excelente gestora de recursos e pessoas, capacidade de tornar qualquer negócio lucrativo e estabilidade financeira invejável.",
@@ -238,6 +251,7 @@
     "name": "Rei de Ouros",
     "image": "assets/cards/pentacles/king.jpg",
     "arcana": "minor",
+    "suit": "pentacles",
     "meanings": {
       "general": "Sucesso material máximo, maestria nos negócios, estabilidade incontestável, autoridade realista e o poder de concretizar grandes ambições.",
       "career": "Líder de negócios consolidado, excelente faro para investimentos, segurança financeira absoluta e autoridade máxima em sua área.",

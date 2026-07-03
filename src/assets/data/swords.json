@@ -4,6 +4,7 @@
     "name": "Ás de Espadas",
     "image": "assets/cards/swords/ace.jpg",
     "arcana": "minor",
+    "suit": "swords",
     "meanings": {
       "general": "Clareza mental absoluta, avanço intelectual, revelação da verdade, poder de decisão e o corte de ilusões.",
       "career": "Uma nova ideia brilhante, resolução definitiva de um problema complexo ou início de um projeto focado na estratégia.",
@@ -22,6 +23,7 @@
     "name": "Dois de Espadas",
     "image": "assets/cards/swords/two.jpg",
     "arcana": "minor",
+    "suit": "swords",
     "meanings": {
       "general": "Indecisão, impasse, necessidade de ponderar caminhos opostos com racionalidade e o equilíbrio antes da escolha.",
       "career": "Momento de avaliar duas propostas com cuidado, neutralidade diante de conflitos na equipe ou trégua estratégica.",
@@ -40,6 +42,7 @@
     "name": "Três de Espadas",
     "image": "assets/cards/swords/three.jpg",
     "arcana": "minor",
+    "suit": "swords",
     "meanings": {
       "general": "Dor emocional, decepção, feridas provocadas pela verdade, tristeza necessária para o aprendizado e libertação de ilusões.",
       "career": "Frustração com o encerramento de um contrato, feedbacks dolorosos mas necessários ou fim abrupto de uma parceria.",
@@ -58,6 +61,7 @@
     "name": "Quatro de Espadas",
     "image": "assets/cards/swords/four.jpg",
     "arcana": "minor",
+    "suit": "swords",
     "meanings": {
       "general": "Descanso necessário, pausa estratégica, recolhimento mental para recuperação de energias e distanciamento do caos.",
       "career": "Momento de tirar férias, desacelerar o ritmo de entregas para evitar o esgotamento ou planejamento silencioso.",
@@ -76,6 +80,7 @@
     "name": "Cinco de Espadas",
     "image": "assets/cards/swords/five.jpg",
     "arcana": "minor",
+    "suit": "swords",
     "meanings": {
       "general": "Conflitos de ego, vitórias vazias, hostilidade, a percepção de que ganhar a discussão a qualquer custo pode gerar perdas humanas.",
       "career": "Ambiente corporativo hostil, competição desleal entre colegas ou discussões onde ninguém quer ceder a razão.",
@@ -94,6 +99,7 @@
     "name": "Seis de Espadas",
     "image": "assets/cards/swords/six.jpg",
     "arcana": "minor",
+    "suit": "swords",
     "meanings": {
       "general": "Transição para águas mais calmas, afastamento de problemas, viagens necessárias, superação gradual de crises e busca por paz.",
       "career": "Mudança para um emprego mais tranquilo, superação de uma fase caótica nos negócios e melhora no ritmo de trabalho.",
@@ -112,6 +118,7 @@
     "name": "Sete de Espadas",
     "image": "assets/cards/swords/seven.jpg",
     "arcana": "minor",
+    "suit": "swords",
     "meanings": {
       "general": "Estratégia, discrição, agir nos bastidores, inteligência tática ou a necessidade de cautela contra mentiras e trapaças.",
       "career": "Planejamento secreto de novos passos profissionais, proteção de ideias autorais ou necessidade de malícia com concorrentes.",
@@ -130,6 +137,7 @@
     "name": "Oito de Espadas",
     "image": "assets/cards/swords/eight.jpg",
     "arcana": "minor",
+    "suit": "swords",
     "meanings": {
       "general": "Sensação de aprisionamento, autossabotagem, medos paralisantes criados pela própria mente e a dificuldade de enxergar a saída óbvia.",
       "career": "Sentir-se preso a um emprego infeliz por medo do mercado, bloqueio criativo por insegurança ou medo do julgamento alheio.",
@@ -148,6 +156,7 @@
     "name": "Nove de Espadas",
     "image": "assets/cards/swords/nine.jpg",
     "arcana": "minor",
+    "suit": "swords",
     "meanings": {
       "general": "Ansiedade extrema, preocupações noturnas, culpa, pesadelos, estresse mental aguçado e o hábito de maximizar os problemas.",
       "career": "Medo excessivo de falhar em prazos, estresse corporativo que tira o sono ou preocupações exageradas com finanças.",
@@ -166,6 +175,7 @@
     "name": "Dez of Espadas",
     "image": "assets/cards/swords/ten.jpg",
     "arcana": "minor",
+    "suit": "swords",
     "meanings": {
       "general": "Fim definitivo de uma situação difícil, esgotamento total, fundo do poço de uma crise e a certeza de que a partir daqui só resta subir.",
       "career": "Encerramento abrupto de um ciclo profissional desgastante, falência de um método antigo ou demissão que força um recomeço.",
@@ -184,6 +194,7 @@
     "name": "Valete de Espadas",
     "image": "assets/cards/swords/page.jpg",
     "arcana": "minor",
+    "suit": "swords",
     "meanings": {
       "general": "Curiosidade intelectual, vigilância, mente analítica jovem, busca por informações, notícias rápidas e ideias lógicas inovadoras.",
       "career": "Fase de pesquisas intensas para projetos, aprendizado ávido de novas ferramentas técnicas e atenção aos detalhes contratuais.",
@@ -202,6 +213,7 @@
     "name": "Cavaleiro de Espadas",
     "image": "assets/cards/swords/knight.jpg",
     "arcana": "minor",
+    "suit": "swords",
     "meanings": {
       "general": "Ação rápida e impetuosa, determinação lógica, defesa cega de ideias, mente afiada focada em cortar obstáculos com velocidade.",
       "career": "Defesa enérgica de um projeto em reuniões, resolução assertiva de crises corporativas e avanço rápido em direção às metas.",
@@ -220,6 +232,7 @@
     "name": "Rainha de Espadas",
     "image": "assets/cards/swords/queen.jpg",
     "arcana": "minor",
+    "suit": "swords",
     "meanings": {
       "general": "Independência mental, discernimento agudo, honestidade realista, proteção de limites pessoais e inteligência estratégica madura.",
       "career": "Liderança justa, técnica e focada na eficiência; excelente capacidade de cortar gastos desnecessários e analisar dados friamente.",
@@ -238,6 +251,7 @@
     "name": "Rei de Espadas",
     "image": "assets/cards/swords/king.jpg",
     "arcana": "minor",
+    "suit": "swords",
     "meanings": {
       "general": "Autoridade intelectual máxima, julgamento imparcial, ética rígida, domínio da lógica e a capacidade de governar pela razão clara.",
       "career": "Líder estratégico altamente respeitado, consultor técnico brilhante, decisões corporativas pautadas na justiça e leis.",

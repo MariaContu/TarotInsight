@@ -4,6 +4,7 @@
     "name": "Ás de Paus",
     "image": "assets/cards/wands/ace.jpg",
     "arcana": "minor",
+    "suit": "wands",
     "meanings": {
       "general": "Início de um ciclo de alta energia, faísca criativa, inspiração avassaladora, entusiasmo e novos projetos ousados.",
       "career": "Surgimento de uma oportunidade profissional empolgante, início de um negócio com muita paixão ou uma ideia inovadora.",
@@ -22,6 +23,7 @@
     "name": "Dois de Paus",
     "image": "assets/cards/wands/two.jpg",
     "arcana": "minor",
+    "suit": "wands",
     "meanings": {
       "general": "Planejamento futuro, expansão de horizontes, tomada de decisão estratégica, ambição e a preparação para dar grandes passos.",
       "career": "Análise de novas propostas de mercado, planejamento de expansão comercial ou decisão de sair da zona de conforto profissional.",
@@ -40,6 +42,7 @@
     "name": "Três de Paus",
     "image": "assets/cards/wands/three.jpg",
     "arcana": "minor",
+    "suit": "wands",
     "meanings": {
       "general": "Expansão, os primeiros resultados aparecendo, visão de longo prazo, progresso visível e a certeza de que o caminho escolhido está certo.",
       "career": "Sucesso inicial em novos empreendimentos, colheita dos primeiros lucros, oportunidades de comércio exterior ou viagens corporativas.",
@@ -58,6 +61,7 @@
     "name": "Quatro de Paus",
     "image": "assets/cards/wands/four.jpg",
     "arcana": "minor",
+    "suit": "wands",
     "meanings": {
       "general": "Celebração, estabilidade feliz, harmonia no lar, conquistas merecidas compartilhadas e uma profunda sensação de paz e segurança.",
       "career": "Conclusão bem-sucedida de uma meta importante, ambiente profissional acolhedor e comemoração de vitórias em equipe.",
@@ -76,6 +80,7 @@
     "name": "Cinco de Paus",
     "image": "assets/cards/wands/five.jpg",
     "arcana": "minor",
+    "suit": "wands",
     "meanings": {
       "general": "Competição saudável, conflitos de ideias, desafios estimulantes, testes de resistência e a necessidade de defender seus posicionamentos.",
       "career": "Ambiente de trabalho muito competitivo, sessões de brainstorming intensas com opiniões divergentes ou disputas por vagas.",
@@ -94,6 +99,7 @@
     "name": "Seis de Paus",
     "image": "assets/cards/wands/six.jpg",
     "arcana": "minor",
+    "suit": "wands",
     "meanings": {
       "general": "Vitória pública, reconhecimento dos seus esforços, aclamação, sucesso merecido, orgulho legítimo e autoconfiança em alta.",
       "career": "Promoção de cargo muito esperada, prêmios por desempenho, aprovação unânime de projetos e liderança respeitada.",
@@ -112,6 +118,7 @@
     "name": "Sete de Paus",
     "image": "assets/cards/wands/seven.jpg",
     "arcana": "minor",
+    "suit": "wands",
     "meanings": {
       "general": "Defesa de posições, resistência contra pressões externas, coragem para manter suas convicções e superação de concorrências.",
       "career": "Manter-se firme diante de críticas a um projeto seu, defesa do seu cargo contra concorrentes diretos e forte resiliência.",
@@ -130,6 +137,7 @@
     "name": "Oito de Paus",
     "image": "assets/cards/wands/eight.jpg",
     "arcana": "minor",
+    "suit": "wands",
     "meanings": {
       "general": "Velocidade, acontecimentos rápidos, notícias urgentes chegando, viagens de última hora, metas alcançadas em ritmo acelerado.",
       "career": "Respostas rápidas de e-mails/vagas, fechamento ágil de contratos, projetos avançando sem burocracias e dinamismo máximo.",
@@ -148,6 +156,7 @@
     "name": "Nove de Paus",
     "image": "assets/cards/wands/nine.jpg",
     "arcana": "minor",
+    "suit": "wands",
     "meanings": {
       "general": "Resiliência na reta final, persistência apesar do cansaço, proteção de conquistas, desconfiança saudável e a última barreira antes da vitória.",
       "career": "Fase final exaustiva de um grande projeto que exige um último esforço focado, proteção de dados corporativos sigilosos.",
@@ -166,6 +175,7 @@
     "name": "Dez de Paus",
     "image": "assets/cards/wands/ten.jpg",
     "arcana": "minor",
+    "suit": "wands",
     "meanings": {
       "general": "Sobrecarga de responsabilidades, fardo pesado, excesso de obrigações assumidas, exaustão física mas com determinação para chegar ao fim.",
       "career": "Acúmulo excessivo de tarefas no trabalho por não saber delegar, cansaço corporativo crônico e metas sufocantes.",
@@ -184,6 +194,7 @@
     "name": "Valete de Paus",
     "image": "assets/cards/wands/page.jpg",
     "arcana": "minor",
+    "suit": "wands",
     "meanings": {
       "general": "Entusiasmo jovem, novas ideias criativas, paixão por novos começos, otimismo contagiante, mensagens inspiradoras e desejo de explorar.",
       "career": "Início de um projeto experimental instigante, propostas inovadoras em fases iniciais ou muita vontade de aprender novas habilidades.",
@@ -202,6 +213,7 @@
     "name": "Cavaleiro de Paus",
     "image": "assets/cards/wands/knight.jpg",
     "arcana": "minor",
+    "suit": "wands",
     "meanings": {
       "general": "Ação ousada, impulsividade apaixonada, busca por aventuras, determinação enérgica, magnetismo em movimento e a coragem de arriscar.",
       "career": "Mudanças rápidas de emprego por busca de desafios maiores, atitude enérgica para fechar vendas e paixão na execução de ideias.",
@@ -220,6 +232,7 @@
     "name": "Rainha de Paus",
     "image": "assets/cards/wands/queen.jpg",
     "arcana": "minor",
+    "suit": "wands",
     "meanings": {
       "general": "Magnetismo pessoal avassalador, autoconfiança inabalável, independência criativa, carisma radiante, liderança inspiradora e alegria de viver.",
       "career": "Empreendedora nata e de sucesso, liderança carismática que motiva toda a equipe e facilidade extrema para gerenciar múltiplos negócios lucrativos.",
@@ -238,6 +251,7 @@
     "name": "Rei de Paus",
     "image": "assets/cards/wands/king.jpg",
     "arcana": "minor",
+    "suit": "wands",
     "meanings": {
       "general": "Liderança nata visionária, autoridade inspiradora, forte poder de execução, empreendedorismo de grande porte, honra e carisma magnético maduro.",
       "career": "Líder corporativo respeitado e motivador, faro excelente para abrir novos mercados comerciais e sucesso absoluto na consolidação de grandes metas.",
