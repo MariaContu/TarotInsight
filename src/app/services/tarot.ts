@@ -1,4 +1,5 @@
-import { Injectable } from '@angular/core';
+import { Injectable, PLATFORM_ID, inject } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 import { Card } from '../models/card.model';
 
 import major from '../../assets/data/major.json';
@@ -11,6 +12,9 @@ import pentacles from '../../assets/data/pentacles.json';
   providedIn: 'root',
 })
 export class TarotService {
+  private readonly HISTORY_KEY = 'tarot-insight-history';
+  private readonly HISTORY_LIMIT = 12;
+  private platformId = inject(PLATFORM_ID);
 
   private cards: Card[] = [
     ...(major as Card[]),
@@ -42,6 +46,44 @@ export class TarotService {
 
     const i = Math.floor(Math.random() * filtered.length);
     return filtered[i];
+  }
+
+  getHistory(): Card[] {
+    if (!isPlatformBrowser(this.platformId)) return [];
+
+    try {
+      const raw = localStorage.getItem(this.HISTORY_KEY);
+      if (!raw) return [];
+
+      const ids: number[] = JSON.parse(raw);
+      return ids
+        .map(id => this.cards.find(c => c.id === id))
+        .filter((c): c is Card => !!c);
+    } catch {
+      return [];
+    }
+  }
+
+  addToHistory(card: Card): void {
+    if (!isPlatformBrowser(this.platformId)) return;
+
+    try {
+      const raw = localStorage.getItem(this.HISTORY_KEY);
+      let ids: number[] = raw ? JSON.parse(raw) : [];
+
+      ids = ids.filter(id => id !== card.id);
+      ids.unshift(card.id);
+      ids = ids.slice(0, this.HISTORY_LIMIT);
+
+      localStorage.setItem(this.HISTORY_KEY, JSON.stringify(ids));
+    } catch {
+      // localStorage indisponível (modo privado, SSR, etc.) - falha silenciosa
+    }
+  }
+
+  clearHistory(): void {
+    if (!isPlatformBrowser(this.platformId)) return;
+    localStorage.removeItem(this.HISTORY_KEY);
   }
 
 }
