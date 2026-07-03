@@ -1,1 +1,35 @@
-<p>filters works!</p>
+<div class="filters">
+
+  <div class="filter-section arcano-section">
+    <h4 class="filter-title">Arcano</h4>
+    <div class="filter-options">
+      <button type="button" [class.active]="selectedArcana === 'all'" (click)="setArcana('all')">Todos</button>
+      <button type="button" [class.active]="selectedArcana === 'major'" (click)="setArcana('major')">Arcanos Maiores</button>
+      <button type="button" [class.active]="selectedArcana === 'minor'" (click)="setArcana('minor')">Arcanos Menores</button>
+    </div>
+  </div>
+
+  @if (selectedArcana !== 'major') {
+    <div class="filter-section naipe-section">
+      <h4 class="filter-title">Naipe</h4>
+      <div class="filter-options">
+        <button type="button" [class.active]="selectedSuit === 'all'" (click)="setSuit('all')">Todos</button>
+        <button type="button" [class.active]="selectedSuit === 'cups'" (click)="setSuit('cups')">Copas</button>
+        <button type="button" [class.active]="selectedSuit === 'swords'" (click)="setSuit('swords')">Espadas</button>
+        <button type="button" [class.active]="selectedSuit === 'wands'" (click)="setSuit('wands')">Paus</button>
+        <button type="button" [class.active]="selectedSuit === 'pentacles'" (click)="setSuit('pentacles')">Ouros</button>
+      </div>
+    </div>
+  }
+
+  <div class="filter-section leitura-section">
+    <h4 class="filter-title">Leitura</h4>
+    <div class="filter-options">
+      <button type="button" [class.active]="selectedReading === 'general'" (click)="setReading('general')">Geral</button>
+      <button type="button" [class.active]="selectedReading === 'career'" (click)="setReading('career')">Carreira</button>
+      <button type="button" [class.active]="selectedReading === 'health'" (click)="setReading('health')">Saúde</button>
+      <button type="button" [class.active]="selectedReading === 'relationships'" (click)="setReading('relationships')">Relacionamentos</button>
+    </div>
+  </div>
+
+</div>
